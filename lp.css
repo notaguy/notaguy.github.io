@@ -62,8 +62,12 @@ opacity: 80%;
   margin-left: 20px;
 }
 
+.hashtag:hover{
+  opacity: 80%;
+}
+
 .chenar{
-  margin:100px auto;
+  margin:80px auto;
   max-width: 1250px;
 }
 
@@ -75,6 +79,7 @@ opacity: 80%;
   text-align: center;
   padding: 20px 30px;
   font-size: 25px;
+  line-height: 30px;
 }
 
 .chenar h1,p{
@@ -116,8 +121,12 @@ opacity: 80%;
     color:white;
 }
 
+.contact h2{
+font-size: 27px;
+}
 .contact h2, p{
   color:rgb(173, 196, 230);
+  line-height: 15px;
 }
 
 .contact h1,p{
@@ -350,6 +359,10 @@ body{
 
 .contact h1,p{
   font-family: 'Cairo',sans-serif;
+}
+
+.contact h1{
+  padding-bottom: 20px;
 }
 
 .contact button{
