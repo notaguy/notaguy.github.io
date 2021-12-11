@@ -12,7 +12,7 @@ a {
 }
 
 body{
-  background-color:#061b44;
+  background-color:#030e3b;
   width: 100%;
   height: 100%;
   font-family: 'Orbitron', sans-serif;
@@ -31,7 +31,6 @@ body{
 }
 
 .social{
-    width: 10%;
     margin:0 ;
     display:flex;
     font-size: 30px;
@@ -74,7 +73,7 @@ opacity: 80%;
 }
 .chenar p{
   text-align: center;
-  padding: 10px 30px;
+  padding: 20px 30px;
   font-size: 25px;
 }
 
@@ -91,8 +90,8 @@ opacity: 80%;
 }
 
 .show{
-  height:1900px;
-  background-image: url('poze/Remake.jpg');
+  height:1200px;
+  background-image: url('poze/Remake.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -102,8 +101,14 @@ opacity: 80%;
 }
 
 .titlu{
-  margin: 0 auto;
-  width:60%;
+  text-align: center;
+}
+
+
+.titlu img{
+  width:60%!important;
+  margin: 0 auto!important;
+  
 }
 
 .contact form p{
@@ -146,7 +151,7 @@ opacity: 80%;
     flex-direction: row;
     align-items:center;
     justify-content: space-around;
-    background-image: linear-gradient(#061b44 0%,#1c2a5c 100%); 
+    background-color: #1c2a5c; 
 }
 
 /*linear-gradient(#1c2a5c 0%, #061b44 100%);*/
@@ -259,11 +264,14 @@ body{
 
 .titlu{
   margin: 0 auto;
-  width:10%;
+  width:100%;
+}
+
+.titlu img{
+  width:100%;
 }
 
 .social{
-    width: 40%;
     margin:0 ;
     display:flex;
     font-size: 15px;
@@ -321,8 +329,8 @@ body{
 }
 
 .show{
-  height:1800px;
-  background-image: url('poze/Remake.jpg');
+  height:1200px;
+  background-image: url('poze/Remake-lung.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -371,7 +379,7 @@ body{
     flex-direction: column;
     align-items:center;
     justify-content: space-around;
-    background-image: linear-gradient(#061b44 0%,#1c2a5c 100%); 
+    background-image: #1c2a5c 100%;
 }
 
 .footer .uni, .best {
@@ -417,7 +425,7 @@ body{
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     font-size: 25px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
