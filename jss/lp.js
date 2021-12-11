@@ -1,4 +1,4 @@
-/*var cards = $('.slider-item').toArray();
+/*var cards = $(.slider-item).toArray();
 
 
 startAnim(cards);
@@ -25,8 +25,8 @@ function sortArray(array) {
         return startAnim(array); 
     },3000)
 }
-
 */
+
 
 (function () {
     const second = 1000,
@@ -71,3 +71,7 @@ function sortArray(array) {
           //seconds
         }, 0)
     }());
+ 
+    $(document).ready(function(){
+      $('.chenar').slick({ });
+    });
