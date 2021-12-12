@@ -46,7 +46,7 @@
       $('.chenar').slick({
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 1400,
             settings: {
               arrows: false
             }
