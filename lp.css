@@ -88,7 +88,7 @@
   .slick-slide{
     height:auto!important;
   }
-  
+
   .butoon {
     font-family: 'Cairo', sans-serif;
     font-size: 20px;
@@ -102,7 +102,10 @@
     margin: 0 auto;
     cursor: pointer;
     margin-bottom: 80px;
+  }
 
+  .butoon:hover{
+    opacity:80%;
   }
 
   .show{
@@ -208,6 +211,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Cairo',sans-serif;
   
   }
   
@@ -362,7 +366,10 @@
     margin: 0 auto;
     cursor: pointer;
     margin-bottom: 80px;
+  }
 
+  .butoon:hover{
+    opacity:80%;
   }
 
   .show{
@@ -461,6 +468,7 @@
     align-items: center;
     justify-content: center;
     font-size: 10px;
+    font-family: 'Cairo',sans-serif;
   
   }
   .sigle{
