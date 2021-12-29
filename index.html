@@ -59,6 +59,13 @@
                 <a target=_blank href="https://www.proveit.bestis.ro/"><span style="color: white;">#hackathon</span></a></p>
             </div>
             
+            <div class="meniu">
+                <a href="#">Parteneri</a>
+                <a href="#">Sponsori</a>
+                <a href="#">Probe</a>
+                <a href="#">Q&A</a>
+            </div>
+
             <div class="social">
                 <a target=_blank href="https://www.facebook.com/bestiasi" class="fa fa-facebook"></a>
                 <a target=_blank href="https://www.instagram.com/bestiasi/?hl=en" class="fa fa-instagram"></a>
@@ -106,15 +113,59 @@
             </div>
         </div>
 -->
+ 
 
     <div class="section-one">
         <h1 class="section-one__title">Informatii</h1>
-        <p class="section-one__descr">Aici vine acel carousel smecher cu pozele in jurul lui</p>
+        <div class="slider-wrap">
+            <div id="card-slider" class="slider">
+              <div class="slider-item">
+                  <div class="animation-card_image">
+                      <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt="">
+                  </div>
+                  <div class="animation-card_content">
+                      <h4 class="animation-card_content_title title-2">Charlize Theron 1</h4>
+                      <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                      <p class="animation-card_content_city">New York, NY</p>
+                  </div>
+              </div>
+              <div class="slider-item">
+                  <div class="animation-card_image">
+                      <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt="">
+                  </div>
+                  <div class="animation-card_content">
+                      <h4 class="animation-card_content_title title-2">Charlize Theron 2</h4>
+                      <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                      <p class="animation-card_content_city">New York, NY</p>
+                  </div>
+              </div>
+              <div class="slider-item">
+                  <div class="animation-card_image">
+                      <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt="">
+                  </div>
+                  <div class="animation-card_content">
+                      <h4 class="animation-card_content_title title-2">Charlize Theron 3</h4>
+                      <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                      <p class="animation-card_content_city">New York, NY</p>
+                  </div>
+              </div>
+              <div class="slider-item">
+                  <div class="animation-card_image">
+                      <img src="https://uznayvse.ru/images/stories2016/uzn_1460039478.jpg" alt="">
+                  </div>
+                  <div class="animation-card_content">
+                      <h4 class="animation-card_content_title title-2">Charlize Theron 4</h4>
+                      <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                      <p class="animation-card_content_city">New York, NY</p>
+                  </div>
+              </div>
+          </div>
+          </div> 
         <!-- begin Separator -->
         <div class="separator">
         <svg class="separator__svg" width="100%" height="400" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <path d="M 100 100 V 10 L 0 100"/>
-            <path d="M 30 73 L 100 18 V 10 Z" fill="#f461c1" stroke-width="0"/>
+            <path d="M 30 73 L 100 18 V 10 Z" fill="#ff0895" stroke-width="0"/>
             </svg>
         </div>
         <!-- end Separator -->
@@ -131,92 +182,93 @@
         <div class="buton">
             <button type="button" class="butoon" ><a target=_blank href="https://www.proveit.bestis.ro/2021" style="color:white;">Ediția 2021</a></button>
         </div>
+        
     </div>
 
-
-
-
     <!--Aici e footer si copyright-->
-        <div class="footer">
-           <!--TREBUIE SA REPARI IMAGINEA-->
-            <div class="uni hide-on-mobile">
+    <div class="footer">
+        <!--TREBUIE SA REPARI IMAGINEA-->
+        <div class="uni hide-on-mobile">
+            <a target=_blank href="https://www.tuiasi.ro/"><img src="poze/TUIASI.png" alt=""></a>
+        </div>
+        <!-- NU UITA SA SCHIMBI LINKUL DE FORMS!!!!!!-->
+        <div class="contact">
+            <h2>Contact</h2>
+            <br>
+            <p>Campus Tudor Vladimirescu Cămin T11, parter cam. 3</p>
+            <br>
+            <p>Cod 700305 – Iași - Romania   +40 755 085 574</p>
+            <br>
+            <h1>Fii la curent cu noi!</h1>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://proveit.bestis.ro';}"></iframe>
+            <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeu34Gm4F1kPVX0iOFO9unuOgVt30amcBX7_ygfktrzqr2PNw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true">
+                <input type="email" name="entry.532529384" placeholder="Email" width="auto" style="padding: 5px;" required="">
+                <script>
+                $('#icheck').click(function () {
+                if ($('#icheck:checked').length == 1)
+                    $('#submit_prog').removeAttr('disabled');
+                else
+                    $('#submit_prog').attr('disabled','disabled');
+                });
+                </script>
+                <a href="bestis.ro">
+                <button type="submit" id="submit_prog" value="Submit">Trimite</button><br><br>
+            </a>
+                <input type="checkbox" id="icheck" name="prog" required=""><p class="gdpr-text">Sunt de acord cu reglementările <a href="https://drive.google.com/file/d/1DGd-VM9jLtC8hjep3pXO0bSYGnvHsOjy/view?fbclid=IwAR1OV3jtz63Gjf561Fpuw_02JbI1rGXjCd0WDyGrqCiy8GFI-cS3LJuFyOQhttps://drive.google.com/file/d/1DGd-VM9jLtC8hjep3pXO0bSYGnvHsOjy/view?fbclid=IwAR1OV3jtz63Gjf561Fpuw_02JbI1rGXjCd0WDyGrqCiy8GFI-cS3LJuFyOQ" target="_blank"><span style="color: white;">GDPR Best Iași</span></a></p>
+            </form>
+        </div>
+
+        <div class="best hide-on-mobile">
+            <a target=_blank href="https://bestis.ro/"><img src="poze/logo_BEST_iasi_alb_rgb.png" alt=""></a>
+        </div>
+
+        <div class="sigle hide-on-desktop">
+            <div class="uni">
                 <a target=_blank href="https://www.tuiasi.ro/"><img src="poze/TUIASI.png" alt=""></a>
             </div>
-            <!-- NU UITA SA SCHIMBI LINKUL DE FORMS!!!!!!-->
-            <div class="contact">
-                <h2>Contact</h2>
-                <br>
-                <p>Campus Tudor Vladimirescu Cămin T11, parter cam. 3</p>
-                <br>
-                <p>Cod 700305 – Iași - Romania   +40 755 085 574</p>
-                <br>
-                <h1>Fii la curent cu noi!</h1>
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://proveit.bestis.ro';}"></iframe>
-                <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeu34Gm4F1kPVX0iOFO9unuOgVt30amcBX7_ygfktrzqr2PNw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true">
-                    <input type="email" name="entry.532529384" placeholder="Email" width="auto" style="padding: 5px;" required="">
-                    <script>
-                    $('#icheck').click(function () {
-                    if ($('#icheck:checked').length == 1)
-                        $('#submit_prog').removeAttr('disabled');
-                    else
-                        $('#submit_prog').attr('disabled','disabled');
-                    });
-                    </script>
-                    <a href="bestis.ro">
-                    <button type="submit" id="submit_prog" value="Submit">Trimite</button><br><br>
-                </a>
-                    <input type="checkbox" id="icheck" name="prog" required=""><p class="gdpr-text">Sunt de acord cu reglementările <a href="https://drive.google.com/file/d/1DGd-VM9jLtC8hjep3pXO0bSYGnvHsOjy/view?fbclid=IwAR1OV3jtz63Gjf561Fpuw_02JbI1rGXjCd0WDyGrqCiy8GFI-cS3LJuFyOQhttps://drive.google.com/file/d/1DGd-VM9jLtC8hjep3pXO0bSYGnvHsOjy/view?fbclid=IwAR1OV3jtz63Gjf561Fpuw_02JbI1rGXjCd0WDyGrqCiy8GFI-cS3LJuFyOQ" target="_blank"><span style="color: white;">GDPR Best Iași</span></a></p>
-                </form>
-            </div>
 
-            <div class="best hide-on-mobile">
+            <div class="best">
                 <a target=_blank href="https://bestis.ro/"><img src="poze/logo_BEST_iasi_alb_rgb.png" alt=""></a>
             </div>
-
-            <div class="sigle hide-on-desktop">
-                <div class="uni">
-                    <a target=_blank href="https://www.tuiasi.ro/"><img src="poze/TUIASI.png" alt=""></a>
-                </div>
-
-                <div class="best">
-                    <a target=_blank href="https://bestis.ro/"><img src="poze/logo_BEST_iasi_alb_rgb.png" alt=""></a>
-                </div>
-            </div>
-
         </div>
-        <div class="foot" style="background-color: #030e3b">
-            © 2022 Copyright: BEST Iași.
-        </div>
-        <div class="animatie">
-            <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-                <defs>
-                    <path id="gentle-wave"
-                    d="M-160 44c30 0 
-                        58-18 88-18s
-                        58 18 88 18 
-                        58-18 88-18 
-                        58 18 88 18
-                        v44h-352z" />
-                </defs>
-                <g class="parallax1">
-                <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1"/>
+
+    </div>
+    <div class="foot" style="background-color: #030e3b">
+        © 2022 Copyright: BEST Iași.
+    </div>
+    <div class="animatie">
+        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+            <defs>
+                <path id="gentle-wave"
+                d="M-160 44c30 0 
+                    58-18 88-18s
+                    58 18 88 18 
+                    58-18 88-18 
+                    58 18 88 18
+                    v44h-352z" />
+            </defs>
+            <g class="parallax1">
+            <use xlink:href="#gentle-wave" x="50" y="3" fill="#ff0895"/>
+            </g>
+                <g class="parallax2">
+            <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
                 </g>
-                    <g class="parallax2">
-                <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
-                    </g>
-                    <g class="parallax3">
-                <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/>
-                </g>
-                    <g class="parallax4">
-                <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/>  
-                </g>
-                </svg>
-        </div>
+                <g class="parallax3">
+            <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/>
+            </g>
+                <g class="parallax4">
+            <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/>  
+            </g>
+            </svg>
+    </div>
+    
     <!--Final footer-->
 
     <!-------------------------------------------------------------------------------------------------------------------------------------->
-
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="./jss/lp.js"></script>
 
