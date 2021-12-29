@@ -18,10 +18,12 @@
     color:white;
   }
   
+  /*-------------------------------------------MENIU--------------------------------------------*/  
   .header{
       height:7vh;
       width:100%;
       position:fixed;
+      z-index: 100;
       background-color:#061b44;
       display:flex;
       justify-content: space-between;
@@ -65,6 +67,34 @@
     opacity: 80%;
   }
   
+  /*-----------------------------------------PARTEA CU TITLU----------------------------------------*/
+  .show{
+      background-color: white;
+  }
+
+  .show{
+    height:1200px;
+    background-image: url('poze/Remake.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titlu{
+    text-align: center;
+  }
+
+
+  .titlu img{
+    width:60%!important;
+    margin: 0 auto!important;
+    
+  }
+
+  /*-----------------------------------SLIDER CU INFO---------------------------------------*/  
   .chenar{
     margin:60px auto;
     max-width: 1250px;
@@ -89,6 +119,13 @@
     height:auto!important;
   }
 
+  .echipa h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*-------------------------------------BUTON EDITIE TRECUTA------------------------------*/
   .butoon {
     font-family: 'Cairo', sans-serif;
     font-size: 20px;
@@ -108,32 +145,60 @@
     opacity:80%;
   }
 
-  .show{
-      background-color: white;
-  }
   
-  .show{
-    height:1200px;
-    background-image: url('poze/Remake.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
+  /*----------------------------------SEPARATOR1------------------------------------------*/
+  .section-one {
+    background-color: #030e3b;
+    position: relative;
+    padding: 200px 0 350px;
   }
-  
-  .titlu{
+  .section-one__title {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 30px;
     text-align: center;
   }
-  
-  
-  .titlu img{
-    width:60%!important;
-    margin: 0 auto!important;
-    
+  .section-one__descr {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
   }
-  
+
+  .section-two {
+    background-color: #03396c;
+    padding: 100px 0 200px;
+    position: relative;
+    z-index: 10;
+  }
+  .section-two__title {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .section-two__descr {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .separator {
+    bottom: -4px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+  }
+
+  /*------------------------------------------GOOGLE FORMS---------------------------------------------*/
+
   .contact form p{
       display: inline;
       color:white;
@@ -165,6 +230,7 @@
     padding-left: 5px;
   }
   
+  /*--------------------------------------------FOOTER-----------------------------------------*/
   .footer .contact {
       text-align:center;
   }
@@ -178,7 +244,7 @@
       flex-direction: row;
       align-items:center;
       justify-content: space-around;
-      background-color: #1c2a5c; 
+      background-color: #03396c; 
   }
   
   /*linear-gradient(#1c2a5c 0%, #061b44 100%);*/
@@ -206,7 +272,7 @@
   
   .foot{
     text-align: center;
-    color: white;
+    color: #f461c1;
     height: 6vh;
     display: flex;
     align-items: center;
@@ -214,12 +280,80 @@
     font-family: 'Cairo',sans-serif;
   
   }
+  /*-------------------------------------------SEPARATOR2--------------------------------------------*/
   
-/*Divider smecher*/
+  .editorial {
+    display: block;
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    margin: 0;
+    z-index:5;
+    bottom:0;
+    left:0px;
+    float:left;
+  }
+  
+  .parallax1 > use {
+    animation: move-forever1 10s linear infinite;
+      &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+
+  .parallax2 > use {
+    animation: move-forever2 8s linear infinite;
+      &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+  .parallax3 > use {
+    animation: move-forever3 6s linear infinite;
+      &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+  .parallax4 > use {
+    animation: move-forever4 4s linear infinite;
+      &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  @keyframes move-forever4 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
 
 
-  
-  /*Countdown*/
+  /*----------------------------------------------COUNTDOWN-----------------------------------------------*/
   .container{
       text-align: center;
       font-family: 'Orbitron', sans-serif;
@@ -251,9 +385,7 @@
   
 }
   
-  
-  
-  /*VARIANTA DE MOBILE*/
+  /*---------------------------------------------------------------------------VARIANTA DE MOBILE--------------------------------------------------------------------------------*/
   
   @media screen and (max-width: 767px) {
   
