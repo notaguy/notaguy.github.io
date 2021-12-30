@@ -212,7 +212,7 @@
   }
 
   .echipa{
-    background-color: #1c2a5c;
+    background-color: #2f1e55;
     padding: 100px;
   }
 
@@ -317,7 +317,7 @@
   font-size: 27px;
   }
   .contact h2, p{
-    color:rgb(173, 196, 230);
+    color: #dad8dd;
     line-height: 15px;
   }
   
@@ -352,7 +352,7 @@
       flex-direction: row;
       align-items:center;
       justify-content: space-around;
-      background-color: #03396c; 
+      background-color: #22277a; 
   }
   
   /*linear-gradient(#1c2a5c 0%, #061b44 100%);*/
@@ -638,7 +638,7 @@
   }
   
   .contact h2, p{
-    color:rgb(173, 196, 230);
+    color:rgb(137, 83, 168);
     font-size:15px;
   }
   
