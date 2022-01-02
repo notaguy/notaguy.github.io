@@ -95,7 +95,7 @@
 
   .show{
     height:1200px;
-    background-image: url('poze/Remake.png');
+    background-image: url('poze/site.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -705,7 +705,7 @@
   
   .show{
     height:700px;
-    background-image: url('poze/Remake-lung.jpg');
+    background-image: url('poze/site.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
