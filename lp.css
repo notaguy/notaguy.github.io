@@ -1,31 +1,5 @@
 @media screen and (min-width: 768px) {
-
-  .papagal{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    z-index:99999;  
-  }
   
-  .papagal img{
-    width:100px;
-  }
-
-  .maiMult{
-    position:fixed;
-    bottom:130px;
-    right:90px;
-    z-index:99999;
-    visibility: hidden;
-    opacity:0;
-    transition:visibility 0.3s linear,opacity 0.3s linear;
-  }
-
-.papagal:hover .maiMult{
-  visibility: visible;
-  transition:0.3s linear;
-  opacity:1;
-}
 
   *{
     margin:0;
@@ -50,6 +24,34 @@
     color:white;
   }
   
+  /*--------------------------------Buton Papagal--------------------------------*/
+  .papagal{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:99999;  
+  }
+  
+  .papagal img{
+    width:100px;
+  }
+
+  .maiMult{
+    position:fixed;
+    bottom:130px;
+    right:90px;
+    z-index:99999;
+    visibility: hidden;
+    opacity:0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+  }
+
+  .papagal:hover .maiMult{
+    visibility: visible;
+    transition:0.3s linear;
+    opacity:1;
+}
+
   /*-------------------------------------------MENIU--------------------------------------------*/  
   .header{
     height:7vh;
@@ -72,8 +74,8 @@
   }
 
   .meniu a{
-    padding: 10px;
     color: white;
+    padding: 10px;
   }
 
   .meniu a:hover{
@@ -81,28 +83,17 @@
   }
 
   .social{
-    margin:0 ;
-    display:flex;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .social a:hover{
     opacity: 80%;
   }
   
-  .header .social img{
-    width: 70%;
-    margin-right: 30px;
-  
-  }
-  
   .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 20px;
+    padding: 30px 20px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
     color: white;
   }
   
@@ -212,19 +203,19 @@
 
   /*-----------------------------------SLIDER CU INFO---------------------------------------*/  
   .chenar{
-    margin:60px auto;
-    max-width: 1250px;
+    margin: 60px auto;
+    max-width: 1500px;
   }
   
   .chenar h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
   }
   .chenar p{
     text-align: center;
-    padding: 20px 30px;
-    font-size: 25px;
-    line-height: 30px;
+    padding: 15px 30px;
+    font-size: 40px;
+    line-height: 40px;
   }
   
   .chenar h1,p{
@@ -235,6 +226,12 @@
     height:auto!important;
   }
 
+  .slick-track{
+    margin-top: 50px;
+  }
+  
+  
+ /*------------------------------------Echipa--------------------------------------------*/
   .echipa h1{
     text-align: center;
     margin-top: 20px;
@@ -244,6 +241,64 @@
   .echipa{
     background-color: #03396c;
     padding: 100px;
+  }
+
+  .membri1{
+    width: 1500px;
+    height:350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .membri2{
+    width: 1200px;
+    height:350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .casuta{
+    width: 250px;
+    height: 300px;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .casuta:hover{
+    box-shadow: 0px 0px 20px 1px #0f0d117a;
+  }
+
+  .casuta:hover .fundal{
+    transform: rotate(80deg);
+    transition:0.8s;
+  }
+
+  .casuta h3{
+    text-align: center;
+  }
+
+  .casuta h4{
+    text-align: center;
+    color:rgb(160, 156, 156);
+  }
+
+  .fundal{
+    width:90%;
+    margin-left: 10px;
+    transition:0.8s;
+  }
+
+  .poza{
+    width: 90%;
+    position: absolute;
+    left:10px;
   }
 
   /*---------------------------------------------Probe--------------------------------------*/
@@ -354,7 +409,6 @@
   .section-one {
     background-color: #030e3b;
     position: relative;
-    padding: 300px 0 200px;
   }
   #informatii {
     color: #fff;
@@ -375,12 +429,10 @@
     text-align: center;
   }
   
-
   .separator {
     bottom: -4px;
     left: 0;
     overflow: hidden;
-    position: absolute;
     width: 100%;
   }
 
