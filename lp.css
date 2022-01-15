@@ -1,5 +1,4 @@
 @media screen and (min-width: 768px) {
-  
 
   *{
     margin:0;
@@ -90,7 +89,7 @@
     opacity: 80%;
   }
   
-  .fa {
+  .social .fa {
     padding: 30px 20px;
     text-align: center;
     text-decoration: none;
@@ -253,7 +252,7 @@
   }
 
   .membri2{
-    width: 1200px;
+    width: 900px;
     height:350px;
     margin: 0 auto;
     display: flex;
@@ -265,7 +264,7 @@
     width: 250px;
     height: 300px;
     background: transparent;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
     position: relative;
@@ -299,6 +298,34 @@
     width: 90%;
     position: absolute;
     left:10px;
+  }
+
+  .icon a{
+    font-size: 20px;
+    border-radius: 43%;
+    padding: 9px;
+    background: #030e3b;
+    color:white;
+    border: 3px solid #030e3b;
+    opacity:0;
+
+  }
+
+  .icon a:hover{
+    opacity: 80%;
+    color: #030e3b;
+    background: transparent;
+  }
+  
+  .casuta:hover .icon a{
+    opacity:1;
+  }
+
+  .icon .fa {
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
   }
 
   /*---------------------------------------------Probe--------------------------------------*/
@@ -658,7 +685,7 @@
   
 }
   
-  /*---------------------------------------------------------------------------VARIANTA DE MOBILE--------------------------------------------------------------------------------*/
+  /*--------------------------------------------VARIANTA DE MOBILE---------------------------------------------*/
   
   @media screen and (max-width: 767px) {
   
