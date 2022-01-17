@@ -85,7 +85,7 @@
         </div>
 <!--Final meniu-->
 
-    <div class="papagal">
+    <div class="papagal hide-on-mobile">
         <div class="maiMult">
             <img src="poze/message.png" alt=""></a>
         </div>
@@ -124,14 +124,14 @@
                     <p>Prove it este un Hackathon de 24 de ore ce își propune să îi pună la încercare pe studenții din Iași pasionați de diferite arii ale domeniului tehnic, precum programare, construcții, mecanică, electrotehnică și nu numai.</p>
                 </div>
                 <div>
-                    <h1>Ce ai de făcut?</h1>
+                    <h2>Ce ai de făcut?</h2>
                     <br>
                 <p>1. Găsește doi prieteni la fel de pasionați și de determinați ca tine pentru a-ți forma echipa. </p>
                 <p>2. Completează formularul de înscriere.  </p> 
                 <p>3. Acceptă provocarea și găsește cea mai creativă soluție pentru rezolvarea acesteia împreună cu coechipierii tăi. </p> 
                 </div>
                 <div>
-                    <h1>Ce trebuie sa stii?</h1>
+                    <h2>Ce trebuie sa stii?</h2>
                     <p>• Aplică la cât mai multe probe pentru a-ți spori șansele de a participa! Poți aplica la oricâte probe vrei, dar în urma selecției vei putea participa numai la una singură. </p>
                     <p>• În timpul competiției veți avea acces la internet pentru a vă ajuta și a vă putea inspira.</p> 
                     <p>• Pe parcursul celor 24 de ore vor fi mentori la care puteți apela atunci când aveți întrebări.</p>
@@ -140,8 +140,15 @@
             </div>
         </div>
         <!-- begin Separator -->
-        <div class="separator">
+        <div class="separator hide-on-desktop">
             <svg class="separator__svg" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 100 100 V 10 L 0 100"/>
+                <path d="M 30 73 L 100 18 V 10 Z" fill="#ff0895" stroke-width="0"/>
+            </svg>
+        </div>
+
+        <div class="separator hide-on-mobile">
+            <svg class="separator__svg" width="100%" height="240" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 100 100 V 10 L 0 100"/>
                 <path d="M 30 73 L 100 18 V 10 Z" fill="#ff0895" stroke-width="0"/>
             </svg>
@@ -151,20 +158,39 @@
     </div>
     <p id="probe"></p>
     <div class="section-two">
-        <h2>Probe</h2>
+        <h2>Probele de anul trecut</h2>
         <div class="cont">
             <input type="radio" name="slider" id="item-1" checked>
             <input type="radio" name="slider" id="item-2">
             <input type="radio" name="slider" id="item-3">
-          <div class="cards">
+            <input type="radio" name="slider" id="item-4">
+          <div class="cards hide-on-mobile">
             <label class="card" for="item-1" id="song-1">
-              <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+              <img src="poze/proba1.png" alt="song">
             </label>
             <label class="card" for="item-2" id="song-2">
-              <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+              <img src="poze/proba2.png" alt="song">
             </label>
             <label class="card" for="item-3" id="song-3">
-              <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+              <img src="poze/proba3.png" alt="song">
+            </label>
+            <label class="card" for="item-4" id="song-4">
+                <img src="poze/proba4.png" alt="song">
+            </label>
+          </div>
+
+          <div class="cards hide-on-desktop">
+            <label class="card" for="item-1" id="song-1">
+              <img src="poze/proba11.png" alt="song">
+            </label>
+            <label class="card" for="item-2" id="song-2">
+              <img src="poze/proba22.png" alt="song">
+            </label>
+            <label class="card" for="item-3" id="song-3">
+              <img src="poze/proba33.png" alt="song">
+            </label>
+            <label class="card" for="item-4" id="song-4">
+                <img src="poze/proba44.png" alt="song">
             </label>
           </div>
         </div>
@@ -215,16 +241,22 @@
     <p id="parteneri"></p>
     <div class="skew-c"></div>
     <div class="white-block">
-        <h1>Parteneri</h1>
-       
+        <h2>Partenerii de anul trecut</h2>
     </div>
     <div class="colour-block">
-        <h1>Sponsori</h1>
+        <h2>Sponsorii de anul trecut</h2>
 
     </div>
 
-    <div class="separator">
+    <div class="separator hide-on-desktop">
         <svg class="separator__svg" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 100 100 V 10 L 0 100"/>
+            <path d="M 30 73 L 100 18 V 10 Z" fill="#ff0895" stroke-width="0"/>
+        </svg>
+    </div>
+
+    <div class="separator hide-on-mobile">
+        <svg class="separator__svg" width="100%" height="240" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <path d="M 100 100 V 10 L 0 100"/>
             <path d="M 30 73 L 100 18 V 10 Z" fill="#ff0895" stroke-width="0"/>
         </svg>
@@ -233,7 +265,7 @@
     <!--ECHIPA-->
     <p id="echipa"></p>
     <div class="echipa">
-        <h1>Echipa</h1>
+        <h2>Echipa</h2>
         <div class="membri1"><!--container-->
             <div class="casuta"><!--card-->
                 <img class="fundal" src="poze/hexarox.png"><!--bg-->
@@ -267,7 +299,6 @@
                 <h3>Andreea Sfeiter</h3>
                 <h4>Responsabil HR</h4>
             </div>
-
            
         </div>
         
@@ -309,13 +340,12 @@
 
     <!--Aici e footer si copyright-->
     <div class="footer">
-        <!--TREBUIE SA REPARI IMAGINEA-->
         <div class="uni hide-on-mobile">
             <a target=_blank href="https://www.tuiasi.ro/"><img src="poze/TUIASI.png" alt=""></a>
         </div>
         <!-- NU UITA SA SCHIMBI LINKUL DE FORMS!!!!!!-->
         <div class="contact">
-            <h2>Contact</h2>
+            <h3>Contact</h3>
             <div class="social">
                 <a target=_blank href="https://www.facebook.com/bestiasi" class="fa fa-facebook"></a>
                 <a target=_blank href="https://www.instagram.com/bestiasi/?hl=en" class="fa fa-instagram"></a>
@@ -323,10 +353,9 @@
                 <a target=_blank href="https://www.youtube.com/channel/UC1DuRUKQkxWv7cgeihAm79w" class="fa fa-youtube"></a>
             </div>
             <p>Campus Tudor Vladimirescu Cămin T11, parter cam. 3</p>
-            <br>
             <p>Cod 700305 – Iași - Romania   +40 755 085 574</p>
             <br>
-            <h1>Fii la curent cu noi!</h1>
+            <h2>Fii la curent cu noi!</h2>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https:proveit.bestis.ro';}"></iframe>
             <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeu34Gm4F1kPVX0iOFO9unuOgVt30amcBX7_ygfktrzqr2PNw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true">
                 <input type="email" name="entry.532529384" placeholder="Email" width="auto" style="padding: 5px;" required="">

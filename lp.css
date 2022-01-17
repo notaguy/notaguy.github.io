@@ -98,7 +98,7 @@
   }
   
   .social .fa {
-    padding: 30px 20px;
+    padding: 16px 10px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -218,6 +218,12 @@
     text-align: center;
     font-size: 60px;
   }
+
+  .chenar h2{
+    text-align: center;
+    font-size: 60px;
+  }
+
   .chenar p{
     text-align: center;
     padding: 15px 30px;
@@ -225,7 +231,7 @@
     line-height: 40px;
   }
   
-  .chenar h1,p{
+  .chenar h1,h2,p{
     font-family: 'Cairo', sans-serif;
   }
   
@@ -239,10 +245,11 @@
   
   
  /*------------------------------------Echipa--------------------------------------------*/
-  .echipa h1{
+  .echipa h2{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
   }
 
   .echipa{
@@ -383,23 +390,25 @@
     object-fit: cover;
   }
 
-  #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+
+  #item-1:checked ~ .cards #song-4, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2, #item-4:checked ~ .cards #song-3 {
     transform: translatex(-40%) scale(.8);
     opacity: .4;
     z-index: 0;
   }
 
-  #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+  #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-4, #item-4:checked ~ .cards #song-1 {
     transform: translatex(40%) scale(.8);
     opacity: .4;
     z-index: 0;
   }
 
-  #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+  #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3, #item-4:checked ~ .cards #song-4 {
     transform: translatex(0) scale(1);
     opacity: 1;
     z-index: 1;
   }
+  
 
   .cont img {
     box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
@@ -415,6 +424,10 @@
 
   #item-3:checked ~ .player #test  {
     transform: translateY(-80px);
+  }
+
+  #item-4:checked ~ .player #test  {
+    transform: translateY(-120px);
   }
 
   /*-------------------------------------BUTON EDITIE TRECUTA------------------------------*/
@@ -457,7 +470,7 @@
   }
   .section-two h2{
     color: #fff;
-    font-size: 35px;
+    font-size: 50px;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -491,15 +504,15 @@
     background: linear-gradient(to left bottom, #03396c 49%, #030e3b 50%);
   }
 
-  .white-block h1 {
+  .white-block h2 {
     color: #fff;
-    font-size: 35px;
+    font-size: 50px;
     margin-bottom: 30px;
     text-align: center;
   }
-  .colour-block h1 {
+  .colour-block h2 {
     color: #fff;
-    font-size: 35px;
+    font-size: 50px;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -507,20 +520,25 @@
   /*------------------------------------------GOOGLE FORMS---------------------------------------------*/
 
   .contact form p{
-      display: inline;
-      color:white;
+    display: inline;
+    color:white;
   }
   
-  .contact h2{
-  font-size: 27px;
-  }
-  .contact h2, p{
+  .contact h3{
+    font-size: 27px;
     color: #dad8dd;
-    line-height: 15px;
+  }
+  .contact p{
+    color: #dad8dd;
+    line-height: 20px;
   }
   
-  .contact h1,p{
+  .contact h2,p{
     font-family: 'Cairo',sans-serif;
+  }
+
+  .contact h2{
+    font-size: 35px;
   }
   
   .contact button{
@@ -552,8 +570,6 @@
       justify-content: space-around;
       background-color: #030e3b; 
   }
-  
-  /*linear-gradient(#1c2a5c 0%, #061b44 100%);*/
   
   .footer .uni, .best {
       display:inline;
@@ -907,8 +923,14 @@
     
     .chenar h1{
       text-align: center;
-      font-size: 20px;
+      font-size: 25px;
     }
+
+    .chenar h2{
+      text-align: center;
+      font-size: 25px;
+    }
+
     .chenar p{
       text-align: center;
       padding: 5px 10px;
@@ -916,7 +938,7 @@
       line-height: 25px;
     }
     
-    .chenar h1,p{
+    .chenar h1,h2,p{
       font-family: 'Cairo', sans-serif;
     }
     
@@ -930,8 +952,10 @@
     
     
    /*------------------------------------Echipa--------------------------------------------*/
-    .echipa h1{
-      text-align: center;      
+
+    .echipa h2{
+      text-align: center;
+      font-size: 25px;
     }
   
     .echipa{
@@ -980,14 +1004,14 @@
   
     .fundal{
       width:90%;
-      margin-left: 10px;
+      margin-left: 15px;
       transition:0.8s;
     }
   
     .poza{
       width: 90%;
       position: absolute;
-      left:10px;
+      left:15px;
     }
   
     /*---------------------------------------------Probe--------------------------------------*/
@@ -1037,19 +1061,19 @@
       object-fit: cover;
     }
   
-    #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    #item-1:checked ~ .cards #song-4, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2, #item-4:checked ~ .cards #song-3 {
       transform: translatex(-40%) scale(.8);
       opacity: .4;
       z-index: 0;
     }
   
-    #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+    #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-4, #item-4:checked ~ .cards #song-1 {
       transform: translatex(40%) scale(.8);
       opacity: .4;
       z-index: 0;
     }
   
-    #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+    #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3, #item-4:checked ~ .cards #song-4 {
       transform: translatex(0) scale(1);
       opacity: 1;
       z-index: 1;
@@ -1109,8 +1133,8 @@
     }
     .section-two h2{
       color: #fff;
-      font-size: 35px;
-      margin-bottom: 30px;
+      font-size: 25px;
+      margin-bottom: 10px;
       text-align: center;
     }
     
@@ -1144,15 +1168,15 @@
       background: linear-gradient(to left bottom, #03396c 49%, #030e3b 50%);
     }
   
-    .white-block h1 {
+    .white-block h2 {
       color: #fff;
-      font-size: 35px;
+      font-size: 25px;
       margin-bottom: 30px;
       text-align: center;
     }
-    .colour-block h1 {
+    .colour-block h2 {
       color: #fff;
-      font-size: 35px;
+      font-size: 25px;
       margin-bottom: 30px;
       text-align: center;
     }
@@ -1172,16 +1196,16 @@
       font-size:15px;
     }
 
-    .contact h2{
+    .contact h3{
       color: rgb(173, 196, 230);
       font-size:20px;
     }
     
-    .contact h1,p{
+    .contact h3,p{
       font-family: 'Cairo',sans-serif;
     }
     
-    .contact h1{
+    .contact h2{
       padding-bottom: 20px;
       font-size: 25px;
     }
