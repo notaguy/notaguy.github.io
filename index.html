@@ -1,3 +1,7 @@
+<!--Ce sa mai fac-->
+<!--sa centrez sagetile, sa rezolv linia de la poza, -->
+
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,12 +62,23 @@
             <div class="hashtag">
                 <a target=_blank href="https://www.proveit.bestis.ro/"><span style="color: white;">#hackathon</span></a></p>
             </div>
-            
+        
+                <button class="hamburger" id="hamburger">
+                    <i class="fa fa-bars" onclick="myFunction()"></i>
+                </button>
+
+
             <div class="meniu">
                 <a href="#informatii">Info</a>
                 <a href="#probe">Probe</a>
                 <a href="#parteneri">Parteneri</a>
-                <a href="#sponsori">Sponsori</a>
+                <a href="#echipa">Echipa</a>    
+            </div>
+
+            <div id="meniu2">
+                <a href="#informatii">Info</a>
+                <a href="#probe">Probe</a>
+                <a href="#parteneri">Parteneri</a>
                 <a href="#echipa">Echipa</a>    
             </div>
                 
@@ -111,15 +126,22 @@
                 <div>
                     <h1>Ce ai de făcut?</h1>
                     <br>
-                <p>1. Dă like pe pagină de Facebook pentru a ști când se dă startul înscrierilor</p>
-                <p>2. Distribuie pagina prietenilor cu care vrei să participi </p> 
-                <p>3. Fii cu ochii în 4 pentru formularul de înscriere</p> 
+                <p>1. Găsește doi prieteni la fel de pasionați și de determinați ca tine pentru a-ți forma echipa. </p>
+                <p>2. Completează formularul de înscriere.  </p> 
+                <p>3. Acceptă provocarea și găsește cea mai creativă soluție pentru rezolvarea acesteia împreună cu coechipierii tăi. </p> 
+                </div>
+                <div>
+                    <h1>Ce trebuie sa stii?</h1>
+                    <p>• Aplică la cât mai multe probe pentru a-ți spori șansele de a participa! Poți aplica la oricâte probe vrei, dar în urma selecției vei putea participa numai la una singură. </p>
+                    <p>• În timpul competiției veți avea acces la internet pentru a vă ajuta și a vă putea inspira.</p> 
+                    <p>• Pe parcursul celor 24 de ore vor fi mentori la care puteți apela atunci când aveți întrebări.</p>
+                        
                 </div>
             </div>
         </div>
         <!-- begin Separator -->
         <div class="separator">
-            <svg class="separator__svg" width="100%" height="240" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <svg class="separator__svg" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <path d="M 100 100 V 10 L 0 100"/>
                 <path d="M 30 73 L 100 18 V 10 Z" fill="#ff0895" stroke-width="0"/>
             </svg>
@@ -196,14 +218,13 @@
         <h1>Parteneri</h1>
        
     </div>
-    <p id="sponsori"></p>
     <div class="colour-block">
         <h1>Sponsori</h1>
 
     </div>
 
     <div class="separator">
-        <svg class="separator__svg" width="100%" height="240" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <svg class="separator__svg" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none" fill="#03396c" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <path d="M 100 100 V 10 L 0 100"/>
             <path d="M 30 73 L 100 18 V 10 Z" fill="#ff0895" stroke-width="0"/>
         </svg>
@@ -247,18 +268,21 @@
                 <h4>Responsabil HR</h4>
             </div>
 
-            <div class="casuta"><!--card-->
-                <img class="fundal" src="poze/hexarox.png"> <!--bg-->
-                <img class="poza" src="poze/oameni.png"> <!--one-->
-                <h3>Dominic Simon</h3>
-                <h4>Responsabil Design</h4>
-            </div>
+           
         </div>
+        
         <div class="membri2"><!--container-->
             <div class="casuta"><!--card-->
                 <img class="fundal" src="poze/hexarox.png"> <!--bg-->
+                <img class="poza" src="poze/dominic.png"> <!--one-->
+                <h3>Dominic Simon</h3>
+                <h4>Responsabil Design</h4>
+            </div>
+
+            <div class="casuta"><!--card-->
+                <img class="fundal" src="poze/hexarox.png"> <!--bg-->
                 <img class="poza" src="poze/maria.png"> <!--one-->
-                <h3>Maria Bussy</h3>
+                <h3>Maria Busaga</h3>
                 <h4>Responsabil Marketing</h4>
             </div>
 
@@ -374,6 +398,18 @@
 
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="./jss/lp.js"></script>
+        <script>
+            function myFunction() {
+            if(document.getElementById("meniu2").style.display == "none")
+            {document.getElementById("meniu2").style.display = "block";
+            }
+              
+              else
+              {document.getElementById("meniu2").style.display = "none";}
+              
+              
+            }
+            </script>
 
 
     </body>
