@@ -989,8 +989,8 @@
     }
   
     .casuta{
-      width: 200px;
-      height: 250px;
+      width: 250px;
+      height: 300px;
       background: transparent;
       border-radius: 20px;
       margin-top: 20px;
@@ -1005,13 +1005,13 @@
   
     .casuta h3{
       text-align: center;
-      font-size: 15px;
+      font-size: 18px;
     }
   
     .casuta h4{
       text-align: center;
       color:rgb(160, 156, 156);
-      font-size: 12;
+      font-size: 15x;
     }
   
     .fundal{
