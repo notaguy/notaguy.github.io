@@ -62,25 +62,27 @@
             <div class="hashtag">
                 <a target=_blank href="https://www.proveit.bestis.ro/2021/"><span style="color: white;">#hackathon</span></a></p>
             </div>
-        
-                <button class="hamburger" id="hamburger">
-                    <i class="fa fa-bars" onclick="myFunction()"></i>
-                </button>
+            <div class="meniu hide-on-mobile">
+              <a href="#informatii">Info</a>
+              <a href="#probe">Probe</a>
+              <a href="#parteneri">Parteneri</a>
+              <a href="#contact">Contact</a>    
+            </div>
 
+            <button class="hamburger" id="hamburger">
+              <i class="fa fa-bars" onclick="myFunction()"></i>
+            </button>
 
-            <div class="meniu">
+            <div class="linii">
+              <div id="meniu2">
                 <a href="#informatii">Info</a>
                 <a href="#probe">Probe</a>
                 <a href="#parteneri">Parteneri</a>
-                <a href="#echipa">Echipa</a>    
+                <a href="#contact">Contact</a>    
+              </div>
+              
             </div>
-
-            <div id="meniu2">
-                <a href="#informatii">Info</a>
-                <a href="#probe">Probe</a>
-                <a href="#parteneri">Parteneri</a>
-                <a href="#echipa">Echipa</a>    
-            </div>
+            
                 
         </div>
 <!--Final meniu-->
@@ -517,7 +519,6 @@
     </div>
 
     <!--ECHIPA-->
-    <p id="echipa"></p>
     <div class="echipa">
         <h2>Echipa</h2>
         <div class="membri1"><!--container-->
@@ -593,6 +594,7 @@
     </div>
 
     <!--Aici e footer si copyright-->
+    <p id="contact"></p>
     <div class="footer">
         <div class="uni hide-on-mobile">
             <a target=_blank href="https://www.tuiasi.ro/"><img src="poze/TUIASI.png" alt=""></a>
@@ -683,14 +685,12 @@
         <script type="text/javascript" src="./jss/lp.js"></script>
         <script>
             function myFunction() {
-            if(document.getElementById("meniu2").style.display == "none")
-            {document.getElementById("meniu2").style.display = "block";
+            if(document.getElementById("meniu2").style.display == "block")
+            {document.getElementById("meniu2").style.display = "none";
             }
               
               else
-              {document.getElementById("meniu2").style.display = "none";}
-              
-              
+              {document.getElementById("meniu2").style.display = "block";}
             }
         </script>
 

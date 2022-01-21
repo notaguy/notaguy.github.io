@@ -790,14 +790,23 @@
       flex-direction: row;
       align-items:center;
     }
-  
-    .meniu{
-      display:none;
-    }
 
-    #meniu2{
+    .linii  #meniu2{
       display: none;
     }
+
+    .linii{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .linii a{
+      color: white;
+      display: flex;
+      flex-direction:column;
+      padding: 14px 16px;
+    }
+
 
     .hamburger .fa {
       padding: 8px 8px;
@@ -809,6 +818,7 @@
     .hamburger{
       background: transparent;
       border: 0;
+      display:flex;
     }
     
     .hashtag a{
@@ -979,11 +989,11 @@
     }
   
     .casuta{
-      width: 300px;
-      height: 350px;
+      width: 200px;
+      height: 250px;
       background: transparent;
       border-radius: 20px;
-      margin-top: 80px;
+      margin-top: 20px;
       position: relative;
       margin: auto;
     }
@@ -995,11 +1005,13 @@
   
     .casuta h3{
       text-align: center;
+      font-size: 15px;
     }
   
     .casuta h4{
       text-align: center;
       color:rgb(160, 156, 156);
+      font-size: 12;
     }
   
     .fundal{
