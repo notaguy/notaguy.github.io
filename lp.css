@@ -121,7 +121,7 @@
 
   .show{
     height:1200px;
-    background-image: url('poze/site.jpg');
+    background-image: url('poze/fundal.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -838,7 +838,7 @@
   
     .show{
       height:700px;
-      background-image: url('poze/site.jpg');
+      background-image: url('poze/fundal.png');
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
