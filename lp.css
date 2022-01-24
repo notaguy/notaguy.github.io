@@ -490,7 +490,7 @@
   .white-block {
     background:#030e3b;
     width:60%;
-    padding:7% 20% 10% 20%;
+    padding:7% 20% 0% 20%;
     color:#ff0895;
   }
 
@@ -752,6 +752,7 @@
       overflow-x: hidden;
       scroll-behavior: smooth;
       letter-spacing: 2px;
+      -webkit-tap-highlight-color: transparent;
     }
   
     a {
