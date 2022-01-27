@@ -1,3 +1,12 @@
+var loader=document.querySelector(".loader")
+
+function vanish()
+{
+  loader.classList.add("disappear");
+}
+document.addEventListener('DOMContentLoaded', vanish);
+
+
 (function () {
     const second = 1000,
           minute = second * 60,
@@ -44,10 +53,10 @@
  
     $(document).ready(function(){
       $('.chenar').slick({
-        
+        arrows:true,
         responsive: [
           {
-            breakpoint: 1400,
+            breakpoint: 800,
             settings: {
               arrows: false
             }
@@ -86,3 +95,4 @@ function sortArray(array) {
         return startAnim(array); 
     },3000)
 }
+

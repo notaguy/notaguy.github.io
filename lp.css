@@ -30,13 +30,41 @@
   #meniu2{
     display:none;
   }
+
+  .loader{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader img{
+    height: 30%;
+  }
+  
+  .disappear{
+    animation: vanish 3s forwards;
+    animation-delay:3s;
+  }
+  
+  @keyframes vanish{
+    100%{
+      opacity:0;
+      visibility: hidden;
+    }
+  }
   
   /*--------------------------------Buton Papagal--------------------------------*/
   .papagal{
     position:fixed;
     bottom:20px;
     right:20px;
-    z-index:99999;  
+    z-index:700;  
   }
   
   .papagal img{
@@ -47,7 +75,7 @@
     position:fixed;
     bottom:130px;
     right:90px;
-    z-index:99999;
+    z-index:700;
     visibility: hidden;
     opacity:0;
     transition:visibility 0.3s linear,opacity 0.3s linear;
@@ -139,6 +167,11 @@
     width:60%!important;
     margin: 0 auto!important;
     
+  }
+
+  .titlu h3{
+    font-size: 30px;
+    margin-top: 40px;
   }
 
   /*--------------------------------------------------------CAROUSEL----------------------------------------------------------*/
@@ -241,6 +274,23 @@
 
   .slick-track{
     margin-top: 50px;
+  }
+
+  .slick-prev {
+    display: block;
+    position: absolute;
+    z-index: 800;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  
+  .slick-next {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 800;
   }
   
   
@@ -354,7 +404,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    transition: transform .5s ease;
+    transition: transform 1s ease;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -506,8 +556,9 @@
     color: #fff;
     font-size: 50px;
     margin-bottom: 30px;
+    margin-top: 30px;
     text-align: center;
-    z-index: 99999999;
+    z-index: 800;
   }
   .colour-block h2 {
     color: #fff;
@@ -767,12 +818,42 @@
       color:white;
     }
 
+    .loader{
+      position: fixed;
+      top:0;
+      left:0;
+      background-color: white;
+      z-index: 999;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loader img{
+      height: 10%;
+    }
+    
+    .disappear{
+      animation: vanish 3s forwards;
+      animation-delay:3s;
+    }
+    
+    @keyframes vanish{
+      100%{
+        opacity:0;
+        visibility: hidden;
+      }
+    }
+
+
+
     /*--------------------------------Buton Papagal--------------------------------*/
     .papagal{
       position:fixed;
       bottom:15px;
       right: 15px;
-      z-index:99999;  
+      z-index:700;  
     }
     
     .papagal img{
@@ -868,6 +949,11 @@
       width:80%!important;
       margin: 0 auto!important;
       
+    }
+
+    .titlu h3{
+      font-size: 15px;
+      margin-top: 20px;
     }
   
     /*-------------------------------------------CAROUSEL---------------------------------------------*/
@@ -1198,6 +1284,7 @@
       font-size: 25px;
       margin-bottom: 30px;
       text-align: center;
+      margin-top: 15px;
     }
     .colour-block h2 {
       color: #fff;

@@ -23,9 +23,7 @@
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-
     cursor: pointer;
-
     color: transparent;
     border: none;
     outline: none;
@@ -69,11 +67,11 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 1px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 1px;
     left: auto;
 }
 .slick-prev:before
@@ -91,12 +89,12 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 1px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: 1px;
 }
 .slick-next:before
 {
