@@ -48,8 +48,8 @@
   }
   
   .disappear{
-    animation: vanish 3s forwards;
-    animation-delay:3s;
+    animation: vanish .8s forwards;
+    animation-delay:2.8s;
   }
   
   @keyframes vanish{
