@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@800&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="jss/cevaceva.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="poze/favicon.png">
@@ -88,7 +89,7 @@
         <div class="maiMult">
             <img src="poze/message.png" alt=""></a>
         </div>
-        <a target=_blank href="#"><img src=./poze/papagal.png></a>      
+        <a id="butonas"><img src=./poze/papagal.png></a>      
     </div>
 
 
@@ -627,17 +628,9 @@
             <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https:proveit.bestis.ro';}"></iframe>
             <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeu34Gm4F1kPVX0iOFO9unuOgVt30amcBX7_ygfktrzqr2PNw/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true">
                 <input type="email" name="entry.532529384" placeholder="Email" width="auto" style="padding: 5px; margin: 5px;" required="">
-                <script>
-                $('#icheck').click(function () {
-                if ($('#icheck:checked').length == 1)
-                    $('#submit_prog').removeAttr('disabled');
-                else
-                    $('#submit_prog').attr('disabled','disabled');
-                });
-                </script>
                 <a href="bestis.ro">
                 <button type="submit" id="submit_prog" value="Submit">Trimite</button><br><br>
-            </a>
+                </a>
                 <input type="checkbox" id="icheck" name="prog" required=""><p class="gdpr-text">Sunt de acord cu reglementările <a href="https://drive.google.com/file/d/1DGd-VM9jLtC8hjep3pXO0bSYGnvHsOjy/view?fbclid=IwAR1OV3jtz63Gjf561Fpuw_02JbI1rGXjCd0WDyGrqCiy8GFI-cS3LJuFyOQhttps://drive.google.com/file/d/1DGd-VM9jLtC8hjep3pXO0bSYGnvHsOjy/view?fbclid=IwAR1OV3jtz63Gjf561Fpuw_02JbI1rGXjCd0WDyGrqCiy8GFI-cS3LJuFyOQ" target="_blank"><span style="color: white;">GDPR Best Iași</span></a></p>
             </form>
         </div>
@@ -685,10 +678,28 @@
             </g>
             </svg>
     </div>
-    
-    <div id="loader"></div>
-  </div>
     <!--Final footer-->
+
+    <!--Pop-up buton papagal-->
+    <div class="bg-modal">
+      <div class="modal-content">
+        <div class="close">+</div>
+        <img src="poze/papagal-icon.png" alt="">
+
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe0viFPe07UTCbqztQ9-Buf7td358A8I4sYsvLvAJEfi5mNkQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+
+          <input  type="text" name="entry.19465840" placeholder="Nume complet" style="font-family:'Cairo',sans-serif;">
+
+          <input  type="text" name="entry.1643600763" placeholder="Intrebarea ta" style="font-family:'Cairo',sans-serif;">
+
+          <input  type="submit" name="submit" value="Trimite">
+          <a href="#" class="butonas">Întrebări frecvente</a>
+        </form>
+
+      </div>
+    </div>
+
+    
 
     <!-------------------------------------------------------------------------------------------------------------------------------------->
         
@@ -697,6 +708,7 @@
 
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="./jss/lp.js"></script>
+        <script type="text/javascript" src="./jss/papagal.js"></script>
         
         <script type="text/javascript">
             var loader;
@@ -786,7 +798,21 @@
             });
         </script>
 
+<script>
+  $(document).ready(function () {
+$('#icheck').click(function () {
+if ($('#icheck:checked').length == 1)
+    $('#submit_prog').removeAttr('disabled');
+else
+    $('#submit_prog').attr('disabled','disabled');
+});
+});
+</script>
       
+<script>
+  
+</script>
+
 
     </body>
 </html>
