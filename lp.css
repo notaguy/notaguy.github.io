@@ -106,10 +106,10 @@
   }
 
   .modal-content{
-    width: 500px;
-    height: 300px;
-    background-color: white;
-    border-radius: 10px;
+    width: 600px;
+    height: 350px;
+    background-image: url('poze/faque.png');
+    border-radius: 15px;
     text-align: center;
     position: relative;
   }
@@ -130,10 +130,10 @@
   .close{
     position: absolute;
     top:0;
-    color: #03396c;
-    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-family: 'Cairo', sans-serif;
     right: 14px;
-    font-size: 35px;
+    font-size: 38px;
     transform: rotate(45deg);
     cursor: pointer;
   }
@@ -149,7 +149,7 @@
 
   .butonas{
     font-family: 'Cairo', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color:#ff0895;
   }
 
@@ -610,6 +610,10 @@
     color:#ff0895;
   }
 
+  .element img{
+    width:80%;
+  }
+
   .skew-c{
     width:100%;
     height:100px;
@@ -858,7 +862,6 @@
       display: none!important;
     }
 
-
     *{
       margin:0;
       padding:0;
@@ -884,25 +887,30 @@
       color:white;
     }
 
+
     .loader{
       position: fixed;
       top:0;
       left:0;
-      background-color: white;
       z-index: 999;
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      /*background:linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('poze/fundalproba.jpg');*/
+      background-image: url('poze/fundalproba.jpg');
+      background-size: cover;
     }
+  
     .loader img{
       height: 10%;
+      filter:brightness(0) invert(1) ;
     }
-    
+
     .disappear{
-      animation: vanish 3s forwards;
-      animation-delay:3s;
+      animation: vanish 0.5s normal forwards ease-in-out;
+      animation-delay:3.5s;
     }
     
     @keyframes vanish{
@@ -911,8 +919,6 @@
         visibility: hidden;
       }
     }
-
-
 
     /*--------------------------------Buton Papagal--------------------------------*/
     .papagal{
@@ -985,14 +991,11 @@
       font-size: 15px;
       margin-left: 10px;
     }
-    
-    .hashtag:hover{
-      opacity: 80%;
-    }
+   
     
     /*-----------------------------------------PARTEA CU TITLU----------------------------------------*/
     .show{
-        background-color: white;
+      background-color: white;
     }
   
     .show{
@@ -1009,7 +1012,6 @@
     .titlu{
       text-align: center;
     }
-  
   
     .titlu img{
       width:80%!important;
@@ -1074,7 +1076,7 @@
     }
     .animation-card_content_title{
       color: #4a4545;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 400;
       letter-spacing: -.18px;
       line-height: 24px;
@@ -1170,7 +1172,7 @@
   
     .casuta h3{
       text-align: center;
-      font-size: 18px;
+      font-size: 20px;
     }
   
     .casuta h4{
@@ -1275,11 +1277,11 @@
     /*-------------------------------------BUTON EDITIE TRECUTA------------------------------*/
     .butoon {
       font-family: 'Cairo', sans-serif;
-      font-size: 14px;
+      font-size: 15px;
       border: 2px solid white;
       color: white;
       background-color: #1c2a5c;
-      padding: 15px 32px;
+      padding: 10px 28px;
       text-align: center;
       text-decoration: none;
       display: flex;
@@ -1299,7 +1301,7 @@
     }
     #informatii {
       color: #fff;
-      font-size: 35px;
+      font-size: 25px;
       text-align: center;
     }
     
@@ -1335,6 +1337,10 @@
       padding:7% 20% 10% 20%;
       color:#ff0895;
       margin-top: 50px;
+    }
+
+    .element img{
+      width:60%;
     }
   
     .skew-c{
@@ -1385,7 +1391,7 @@
     .contact h2{
       padding-top: 10px;
       padding-bottom: 20px;
-      font-size: 25px;
+      font-size: 20px;
     }
     
     .contact button{
@@ -1545,7 +1551,7 @@
     .container{
       text-align: center;
       font-family: 'Orbitron', sans-serif;
-      font-size: 18px; 
+      font-size: 15px; 
       box-sizing: border-box;
       display: flex;
       flex-direction: row;
@@ -1561,10 +1567,9 @@
     
     #countdown li span {
       display: block;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   
-    
     /*End of countdown*/
     
   }
