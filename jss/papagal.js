@@ -8,11 +8,13 @@ document.querySelector('.close').addEventListener('click',function(){
 });
 
 
-document.getElementById('butonas2').addEventListener('click',function(){
-  document.querySelector('.bg-modal2').style.display='flex';
+//document.getElementById('.login-box').addEventListener('click',function(){
+//  document.querySelector('card__inner')
+ // card.classList.toggle('is-flipped');
+//});
 
-});
+const card=document.querySelector('.card__inner');
 
-document.querySelector('.close2').addEventListener('click',function(){
-  document.querySelector('.bg-modal2').style.display="none";
+card.addEventListener('click', function(){
+  card.classList.togglet('is-flipped');
 });

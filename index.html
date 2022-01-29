@@ -682,20 +682,28 @@
 
     <!--Pop-up buton papagal-->
     <div class="bg-modal hide-on-mobile">
-      <div class="modal-content">
-        <div class="close">+</div>
-        <!--<img src="poze/papagal-icon.png" alt="">-->
+      <div class="card__inner">
+        <div class="modal-content modal-content-front">
+          <div class="close">+</div>
+          <!--<img src="poze/papagal-icon.png" alt="">-->
 
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe0viFPe07UTCbqztQ9-Buf7td358A8I4sYsvLvAJEfi5mNkQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe0viFPe07UTCbqztQ9-Buf7td358A8I4sYsvLvAJEfi5mNkQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
 
-          <input  type="text" name="entry.19465840" placeholder="Nume complet" style="font-family:'Cairo',sans-serif; width:400px;">
+            <input  type="text" name="entry.19465840" placeholder="Nume complet" style="font-family:'Cairo',sans-serif; width:400px;">
 
-          <input  type="text" name="entry.1643600763" placeholder="Intrebarea ta" style="font-family:'Cairo',sans-serif; width:400px;">
+            <input  type="text" name="entry.1643600763" placeholder="Intrebarea ta" style="font-family:'Cairo',sans-serif; width:400px;">
 
-          <input  type="submit" name="submit" value="Trimite" style="font-family: 'Cairo',sans-serif; width: 100px; color:white; background-color: #254a94; cursor:pointer;">
-          <a href="#" class="butonas">Întrebări frecvente</a>
-        </form>
+            <input  type="submit" name="submit" value="Trimite" style="font-family: 'Cairo',sans-serif; width: 100px; color:white; background-color: #254a94; cursor:pointer;">
+            <div class="login-box">
+              <a class="flip"> <span></span> <span></span> <span></span> <span></span>Întrebări frecvente</a>
+            </div>
+          </form>
+        </div>
 
+        <div class="modal-content modal-content-back">
+          <h2>Intrebari si Raspunsuri</h2>
+          <h2>Va urma...</h2>
+        </div>
       </div>
     </div>
 
