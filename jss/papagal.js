@@ -8,13 +8,12 @@ document.querySelector('.close').addEventListener('click',function(){
 });
 
 
-//document.getElementById('.login-box').addEventListener('click',function(){
-//  document.querySelector('card__inner')
- // card.classList.toggle('is-flipped');
+//var card=document.querySelector('.card__inner');
+//document.getElementById('.login-box').addEventListener('click', function(){
+   //card.classList.toggle('is-flipped');
 //});
 
-const card=document.querySelector('.card__inner');
-
-card.addEventListener('click', function(){
-  card.classList.togglet('is-flipped');
-});
+//var card=document.querySelector('.card__inner');
+//card.addEventListener('click',function(){
+ // card.classList.toggle('is-flipped');
+//});
