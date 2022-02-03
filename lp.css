@@ -108,6 +108,7 @@
 
   .bg-modal form{
     margin-top: 140px;
+    
   }
 
   .modal-content{
@@ -138,15 +139,15 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    margin:0 auto;
-    margin-top: 300px;
-    
+    position: absolute;
+
   }
 
   .modal-content-back{
     display: flex;
     align-items: center;
     justify-content: center;
+    position:absolute;
     margin:0 auto;
     transform:rotateY(180deg);
   }
@@ -159,6 +160,9 @@
     transform-origin: center right;
     position: relative;
     cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .card__inner.is-flipped{
@@ -370,7 +374,7 @@
 
   .show{
     height:1200px;
-    background-image: url('poze/fundal.png');
+    background-image: url('poze/fundal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -754,19 +758,20 @@
   /*------------------------------------------------Separator2-----------------------------------------*/
   .colour-block {
     background:#030e3b;
-    width:60%;
-    padding:7% 20% 10% 20%;
+    width:80%;
+    padding:7% 10% 0% 10%;
     color:#fff;
   }
   .white-block {
     background:#030e3b;
-    width:60%;
-    padding:7% 20% 0% 20%;
+    width:80%;
+    padding:7% 10% 0% 10%;
     color:#ff0895;
   }
 
   .element img{
     width:80%;
+    margin:0 auto;
   }
 
   .skew-c{
@@ -789,6 +794,34 @@
     color: #fff;
     font-size: 50px;
     text-align: center;
+  }
+
+  .container-logo{
+    position:relative;
+    background-size:100% 100%;
+    border-radius: 50%;  
+    box-sizing: border-box;
+    align-self: center;
+    height: 17em;
+    width: 17em;
+    display:flex;
+    align-items:center;
+    flex-shrink: 0;
+    margin:auto;
+  }
+  
+  .cpy-logo1 { 
+    width: 80%;
+    margin:0 auto;
+    height: auto;
+  }
+  
+  .slick-slide {
+    outline: none;
+  }
+  
+  .slick-initialized {
+    overflow: hidden;
   }
 
   /*------------------------------------------GOOGLE FORMS---------------------------------------------*/
@@ -1154,7 +1187,7 @@
   
     .show{
       height:700px;
-      background-image: url('poze/fundal.png');
+      background-image: url('poze/fundal.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
@@ -1481,20 +1514,21 @@
     /*------------------------------------------------Separator2-----------------------------------------*/
     .colour-block {
       background:#030e3b;
-      width:60%;
-      padding:7% 20% 10% 20%;
+      width:80%;
+      padding:7% 10% 0% 10%;
       color:#fff;
     }
     .white-block {
       background:#030e3b;
-      width:60%;
-      padding:7% 20% 10% 20%;
+      width:80%;
+      padding:7% 10% 0% 10%;
       color:#ff0895;
       margin-top: 50px;
     }
 
     .element img{
-      width:60%;
+      width:70%;
+      margin:0 auto:
     }
   
     .skew-c{
@@ -1516,6 +1550,33 @@
       color: #fff;
       font-size: 25px;
       text-align: center;
+    }
+
+    .container-logo{
+      position:relative;
+      background-size:100% 100%;
+      border-radius: 50%;  
+      box-sizing: border-box;
+      align-self: center;
+      height: 14em;
+      display:flex;
+      align-items:center;
+      flex-shrink: 0;
+      margin:auto;
+    }
+    
+    .cpy-logo1 { 
+      width: 80%;
+      margin:0 auto;
+      height: auto;
+    }
+    
+    .slick-slide {
+      outline: none;
+    }
+    
+    .slick-initialized {
+      overflow: hidden;
     }
   
     /*------------------------------------------GOOGLE FORMS---------------------------------------------*/
@@ -1729,30 +1790,4 @@
   }
 
   /*------------------------------------------Sponsori--------------------------------------------*/
-  .container-logo{
-    position:relative;
-      background-size:100% 100%;
-      border-radius: 50%;  
-      box-sizing: border-box;
-      align-self: center;
-      height: 17em;
-      width: 17em;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      flex-shrink: 0;
-      margin:auto;
-  }
   
-  .cpy-logo1 { 
-    width: 80%;
-    height: auto;
-  }
-  
-  .slick-slide {
-      outline: none;
-  }
-  
-  .slick-initialized {
-    overflow: hidden;
-    }
