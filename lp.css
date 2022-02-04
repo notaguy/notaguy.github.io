@@ -170,9 +170,21 @@
     transform: translateX(-100%) rotateY(-180deg);
   }
 
+  .card__inner.is-not-flipped{
+    transform: translateX(-100%) rotateY(-180deg);
+  }
 
+
+  .inapoi{
+    position: absolute;
+    top:0;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    right: 14px;
+    font-size: 38px;
+    cursor: pointer;
+  }
   
-
 
   .close{
     position: absolute;

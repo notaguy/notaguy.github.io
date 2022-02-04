@@ -13,7 +13,21 @@ document.querySelector('.close').addEventListener('click',function(){
    //card.classList.toggle('is-flipped');
 //});
 
+//var card=document.querySelector('.card__inner');
+//card.addEventListener('click',function(){
+ //card.classList.toggle('is-flipped');
+//});
+
 var card=document.querySelector('.card__inner');
-card.addEventListener('click',function(){
+var but=document.querySelector('.login-box');
+but.addEventListener('click',function(){
  card.classList.toggle('is-flipped');
 });
+
+
+var butt=document.querySelector('.inapoi');
+butt.addEventListener('click',function(){
+  card.classList.toggle('is-not-flipped');
+});
+
+
