@@ -21,13 +21,13 @@ document.querySelector('.close').addEventListener('click',function(){
 var card=document.querySelector('.card__inner');
 var but=document.querySelector('.login-box');
 but.addEventListener('click',function(){
- card.classList.toggle('is-flipped');
+ card.classList.add('is-flipped');
 });
 
 
 var butt=document.querySelector('.inapoi');
 butt.addEventListener('click',function(){
-  card.classList.toggle('is-not-flipped');
+  card.classList.remove('is-flipped');
 });
 
 

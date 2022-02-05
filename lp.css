@@ -170,11 +170,6 @@
     transform: translateX(-100%) rotateY(-180deg);
   }
 
-  .card__inner.is-not-flipped{
-    transform: translateX(-100%) rotateY(-180deg);
-  }
-
-
   .inapoi{
     position: absolute;
     top:0;
