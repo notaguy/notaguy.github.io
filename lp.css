@@ -159,7 +159,6 @@
     transform-style: preserve-3d;
     transform-origin: center right;
     position: relative;
-    cursor:pointer;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -210,6 +209,7 @@
     color: #fff;
     pointer-events: none;
     transition: .5s;
+    cursor:pointer;
   }
   
   .login-box a {
@@ -487,6 +487,7 @@
   .chenar h2{
     text-align: center;
     font-size: 60px;
+    font-family: 'Cairo', sans-serif;
   }
 
   .chenar p{
@@ -565,10 +566,6 @@
     position: relative;
   }
 
-  .casuta:hover{
-    box-shadow: 0px 0px 20px 1px #0f0d117a;
-  }
-
   .casuta:hover .fundal{
     transform: rotate(80deg);
     transition:0.8s;
@@ -576,11 +573,14 @@
 
   .casuta h3{
     text-align: center;
+    font-family:'Cairo', sans-serif;
   }
 
   .casuta h4{
     text-align: center;
     color:rgb(160, 156, 156);
+    font-family:'Cairo', sans-serif;
+
   }
 
   .fundal{
@@ -1367,12 +1367,14 @@
     .casuta h3{
       text-align: center;
       font-size: 20px;
+      font-family:'Cairo', sans-serif;
     }
   
     .casuta h4{
       text-align: center;
       color:rgb(160, 156, 156);
       font-size: 15x;
+      font-family:'Cairo', sans-serif;
     }
   
     .fundal{
