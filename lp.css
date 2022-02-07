@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(0deg, rgba(23, 42, 83, 0.568), rgba(31, 44, 104, 0.521)), url('poze/fundalproba.jpg');
+    background:linear-gradient(0deg, rgba(23, 42, 83, 0.568), rgba(31, 44, 104, 0.521)), url('poze/fundalproba.webp');
     /*background-image: url('poze/fundalproba.jpg');*/
     background-size: cover;
   }
@@ -52,8 +52,8 @@
   }
   
   .disappear{
-    animation: vanish 0.5s normal forwards ease-in-out;
-    animation-delay:3.5s;
+    animation: vanish 0.4s normal forwards ease-in-out;
+    animation-delay:3s;
   }
   
   @keyframes vanish{
@@ -114,7 +114,7 @@
   .modal-content{
     width: 700px;
     height: 400px;
-    background-image: url('poze/faque.png');
+    background-image: url('poze/faque.webp');
     border-radius: 15px;
     text-align: center;
     box-shadow: 0px 3px 15px 3px rgba(232, 5, 236, 0.863);
@@ -1093,7 +1093,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background:linear-gradient(0deg, rgba(23, 42, 83, 0.568), rgba(31, 44, 104, 0.521)), url('poze/fundalproba.jpg');
+      background:linear-gradient(0deg, rgba(23, 42, 83, 0.568), rgba(31, 44, 104, 0.521)), url('poze/fundalproba.webp');
       background-size: cover;
     }
   
@@ -1103,8 +1103,8 @@
     }
 
     .disappear{
-      animation: vanish 0.5s normal forwards ease-in-out;
-      animation-delay:3.5s;
+      animation: vanish 0.4s normal forwards ease-in-out;
+      animation-delay:3s;
     }
     
     @keyframes vanish{
