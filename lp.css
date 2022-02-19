@@ -625,6 +625,77 @@
 
   /*---------------------------------------------Probe--------------------------------------*/
 
+
+.container1 {
+  display: flex;
+  -webkit-display: box;
+  -moz-display: box;
+  -ms-display: flexbox;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.cards1 {
+  display: flex;
+  padding: 1rem;
+  margin: 2rem;
+  width: 100%;
+}
+@media (min-width: 40rem) {
+  .cards1 {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .cards1 {
+    width: 25%;
+  }
+}
+.cards1 .card-item1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #030e3b;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 20px 40px -14px rgba(255,	8,	149, 0.664);
+  overflow: hidden;
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+}
+.cards1 .card-item1:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.cards1 .card-item1:hover .card-image1 {
+  opacity: 1;
+}
+.cards1 .card-info1 {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+  line-height: 1.5em;
+}
+.cards1 .card-title1 {
+  font-size: 25px;
+  line-height: 1.1em;
+  color: #fff;
+  margin-bottom: 0.2em;
+}
+.cards1 .card-image1 {
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 6px 6px 0px 0px;
+  opacity: 0.91;
+}
+
+  /*--------------------------------------------------------------*/
   input[type=radio] {
     display: none;
   }
@@ -766,7 +837,7 @@
   .colour-block {
     background:#030e3b;
     width:80%;
-    padding:7% 10% 0% 10%;
+    padding:0% 10% 0% 10%;
     color:#fff;
   }
   .white-block {
@@ -801,6 +872,7 @@
     color: #fff;
     font-size: 50px;
     text-align: center;
+    margin-top: 30px;
   }
 
   .container-logo{
@@ -1114,18 +1186,7 @@
       }
     }
 
-    /*--------------------------------Buton Papagal--------------------------------*/
-    .papagal{
-      position:fixed;
-      bottom:15px;
-      right: 15px;
-      z-index:700;  
-    }
     
-    .papagal img{
-      width:30px;
-    }
-  
     /*-------------------------------------------MENIU--------------------------------------------*/  
     .header{
       height:6vh;
@@ -1391,6 +1452,77 @@
   
     /*---------------------------------------------Probe--------------------------------------*/
   
+    .container1 {
+      display: flex;
+      -webkit-display: box;
+      -moz-display: box;
+      -ms-display: flexbox;
+      -webkit-display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .cards1 {
+      display: flex;
+      padding: 1rem;
+      margin: 2rem;
+      width: 100%;
+    }
+    @media (min-width: 40rem) {
+      .cards1 {
+        width: 50%;
+      }
+    }
+    @media (min-width: 56rem) {
+      .cards1 {
+        width: 25%;
+      }
+    }
+    .cards1 .card-item1 {
+      display: flex;
+      flex-direction: column;
+      background-color: #030e3b;
+      width: 100%;
+      border-radius: 6px;
+      box-shadow: 0 20px 40px -14px rgba(255,	8,	149, 0.664);
+      overflow: hidden;
+      transition: transform 0.5s;
+      -webkit-transition: transform 0.5s;
+    }
+    .cards1 .card-item1:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+    }
+    .cards1 .card-item1:hover .card-image1 {
+      opacity: 1;
+    }
+    .cards1 .card-info1 {
+      display: flex;
+      flex: 1 1 auto;
+      flex-direction: column;
+      padding: 1rem;
+      line-height: 1.5em;
+    }
+    .cards1 .card-title1 {
+      font-size: 25px;
+      line-height: 1.1em;
+      color: #fff;
+      margin-bottom: 0.2em;
+    }
+    .cards1 .card-image1 {
+      height: 200px;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 6px 6px 0px 0px;
+      opacity: 0.91;
+    }
+    
+    
+    /*--------------------------------------------------------------*/
     input[type=radio] {
       display: none;
     }
@@ -1524,7 +1656,7 @@
     .colour-block {
       background:#030e3b;
       width:80%;
-      padding:7% 10% 0% 10%;
+      padding:0% 10% 0% 10%;
       color:#fff;
     }
     .white-block {
@@ -1551,7 +1683,7 @@
     .white-block h2 {
       color: #fff;
       font-size: 25px;
-      margin-bottom: 30px;
+      margin-bottom: 15px;
       text-align: center;
       margin-top: 15px;
     }
@@ -1559,6 +1691,7 @@
       color: #fff;
       font-size: 25px;
       text-align: center;
+      margin-top: 15px;
     }
 
     .container-logo{
