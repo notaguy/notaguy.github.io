@@ -7,7 +7,7 @@ function vanish()
 document.addEventListener('DOMContentLoaded', vanish);
 
 
-(function () {
+/*(function () {
     const second = 1000,
           minute = second * 60,
           hour = minute * 60,
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', vanish);
           }
           //seconds
         }, 0)
-    }());
+    }());*/
  
     $(document).ready(function(){
       $('.chenar').slick({
