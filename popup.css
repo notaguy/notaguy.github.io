@@ -29,7 +29,7 @@
 
   .show{
     height:1100px;
-    background-image: url('poze/fundal.webp');
+    background-image: url('poze/popup.webp');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
