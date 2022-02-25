@@ -445,7 +445,7 @@
 
   .show{
     height:1200px;
-    background-image: url('poze/fundal.jpg');
+    background-image: url('poze/fundal.webp');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -1779,7 +1779,7 @@
 
   .show{
     height:1200px;
-    background-image: url('poze/fundal.jpg');
+    background-image: url('poze/fundal.webp');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -2856,7 +2856,7 @@
   
     .show{
       height:700px;
-      background-image: url('poze/fundal.jpg');
+      background-image: url('poze/fundal.webp');
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
@@ -3805,7 +3805,7 @@
   
     .show{
       height:700px;
-      background-image: url('poze/fundal.jpg');
+      background-image: url('poze/fundal.webp');
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
