@@ -3840,7 +3840,7 @@
 
     .chenar p{
       text-align: center;
-      padding: 5px 10px;
+      padding: 5px 20px;
       font-size: 15px;
       line-height: 25px;
     }
@@ -4224,6 +4224,7 @@
     .contact p{
       color: rgb(173, 196, 230);
       font-size:15px;
+      padding: 0px 10px;
     }
 
     .contact h3{
@@ -4284,7 +4285,7 @@
     
     .footer img{
       padding: 0px;
-      width:100%;
+      width:110%;
       object-fit: cover;
       margin-left: 0;
       margin-right: 0;
