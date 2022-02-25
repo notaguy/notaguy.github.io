@@ -74,13 +74,26 @@
                 <a href="#contact">Contact</a>    
               </div>
               
-              <div class="meniu hide-on-mobile">
-                <a href="#informatii">Info</a>
-                <a href="#probe">Probe</a>
-                <a href="#parteneri">Parteneri</a>
-                <a href="#contact">Contact</a>    
+              <div class="meniu hide-on-mobile">   
+                <div class="navbar">
+                  <a href="#informatii">Info</a>
+                  <a href="#probe">Probe</a>
+                  <div class="dropdown">
+                  <button class="dropbtn" onclick="myFunctionn()">Parteneri
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content" id="myDropdown">
+                    <a target=_blank href="https://www.preh.com/">Preh</a>
+                    <a target=_blank href="https://www.maxcode.net/">MaxCode</a>
+                    <a href="popcentric.html">Centric</a>
+                    <a target=_blank href="https://www.continental.com/en/">Continental</a>
+                    <a target=_blank href="https://osf.digital/">Osf Digital </a>
+                  </div>
+                  </div> 
+                  <a href="#contact">Contact</a>
+                </div> 
               </div>
-            </div>
+              </div>
             
                 
         </div>
@@ -323,17 +336,7 @@
             </div></a>
           </div>
 
-          <div class="element">
-            <a href="popcentric.html"> <div class="container-logo">
-              <img class="cpy-logo1" src="poze/anul asta/centric.png" alt="Companie Centric">
-            </div></a>
-          </div>
-
-          <div class="element">
-            <a target=_blank href="https://www.continental.com/en/"> <div class="container-logo">
-              <img class="cpy-logo1" src="poze/anul asta/continental.png" alt="Companie Continental">
-            </div></a>
-          </div>
+          
 
       </div>
     </div>
@@ -612,6 +615,25 @@
         <script type="text/javascript" src="./jss/lp.js"></script>
         <script type="text/javascript" src="./jss/papagal.js"></script>
         
+        <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunctionn() {
+            document.getElementById("myDropdown").classList.toggle("showw");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('showw')) {
+                myDropdown.classList.remove('showw');
+              }
+            }
+          }
+          </script>
+
+
         <script type="text/javascript">
             var loader;
             function loadNow(opacity){
