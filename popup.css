@@ -95,7 +95,6 @@
     }
     .cards1 {
       width: 100%;
-    
       display: flex;
       justify-content: center;
       align-items: center;
@@ -117,7 +116,7 @@
       flex: 1 1 auto;
       flex-direction: column;
       padding: 1rem;
-      line-height: 1.5em;
+      line-height: 1.4em;
       justify-content: center;
       align-items: center;
     }
@@ -319,7 +318,7 @@
         flex: 1 1 auto;
         flex-direction: column;
         padding: 1rem;
-        line-height: 1em;
+        line-height: 1.3em;
         justify-content: center;
         align-items: center;
       }
@@ -521,7 +520,7 @@
         flex: 1 1 auto;
         flex-direction: column;
         padding: 1rem;
-        line-height: 1em;
+        line-height: 1.2em;
         justify-content: center;
         align-items: center;
       }
@@ -726,7 +725,7 @@
         flex: 1 1 auto;
         flex-direction: column;
         padding: 0.5rem;
-        line-height: 1.3em;
+        line-height: 1.4em;
         justify-content: center;
         align-items: center;
         font-size: 12px;

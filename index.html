@@ -68,10 +68,23 @@
 
             <div class="linii">
               <div id="meniu2">
+                <div class="navbar">
                 <a href="#informatii">Info</a>
                 <a href="#probe">Probe</a>
-                <a href="#parteneri">Parteneri</a>
+                <div class="dropdown">
+                  <button class="dropbtn" onclick="myFunctionn2()">Parteneri
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content" id="myDropdown2">
+                    <a target=_blank href="https://www.preh.com/">Preh</a>
+                    <a target=_blank href="https://www.maxcode.net/">Maxcode</a>
+                    <a href="popcentric.html">Centric</a>
+                    <a href="popconti.html">Continental</a>
+                    <a href="popuposf.html">Osf Digital </a>
+                  </div>
+                  </div>
                 <a href="#contact">Contact</a>    
+              </div>
               </div>
               
               <div class="meniu hide-on-mobile">   
@@ -84,13 +97,14 @@
                   </button>
                   <div class="dropdown-content" id="myDropdown">
                     <a target=_blank href="https://www.preh.com/">Preh</a>
-                    <a target=_blank href="https://www.maxcode.net/">MaxCode</a>
+                    <a target=_blank href="https://www.maxcode.net/">Maxcode</a>
                     <a href="popcentric.html">Centric</a>
-                    <a target=_blank href="https://www.continental.com/en/">Continental</a>
-                    <a target=_blank href="https://osf.digital/">Osf Digital </a>
+                    <a href="popconti.html">Continental</a>
+                    <a href="popuposf.html">Osf Digital </a>
                   </div>
                   </div> 
                   <a href="#contact">Contact</a>
+                  <a target=_blank href="https://form.jotform.com/220374330075043" style="color:#ff0895">Înscrie-te</a> 
                 </div> 
               </div>
               </div>
@@ -216,7 +230,7 @@
               <img src="poze/anul asta/preh.webp" alt="logo MAXCODE">
               <div class="card-info1">
                 <h2 class="card-title1">PREH</h2>
-                <p class="card-intro1">Crearea unui control pentru modelul unui convertor rezonant bidirecțional cu punte completă, care utilizează o rețea rezonantă simetrică de tip CLLC. </p>
+                <p class="card-intro1">Participă la crearea automobilului de mâine și construiește un algoritm de control pentru gestionarea energiei dintr-un automobil cu arhitectură electrică. </p>
               </div>
             </div>
           </div>
@@ -333,6 +347,12 @@
           <div class="element">
             <a  target=_blank href="https://www.maxcode.net/"> <div class="container-logo">
               <img class="cpy-logo1" src="poze/anul asta/maxcode.webp" alt="Companie MaxCode">
+            </div></a>
+          </div>
+
+          <div class="element">
+            <a  target=_blank href="https://aboutus.godaddy.net/newsroom/overview/default.aspx"> <div class="container-logo">
+              <img class="cpy-logo1" src="poze/anul asta/godaddy.webp" alt="Companie GoDaddy">
             </div></a>
           </div>
 
@@ -632,6 +652,24 @@
             }
           }
           </script>
+
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunctionn2() {
+              document.getElementById("myDropdown2").classList.toggle("showw");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown2");
+                if (myDropdown.classList.contains('showw')) {
+                  myDropdown.classList.remove('showw');
+                }
+              }
+            }
+            </script>
 
 
         <script type="text/javascript">

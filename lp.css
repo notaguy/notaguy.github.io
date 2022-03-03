@@ -346,7 +346,7 @@
   }
 
   .meniu a:hover{
-    opacity: 80%;
+    color: rgba(255,255,255,0.7);
   }
 
   .social{
@@ -486,7 +486,7 @@
   .login-boxx p {
     font-family: 'Cairo', sans-serif;
     font-size: 25px;
-    color:#e805ec;
+    color:#ff0895;
     position: relative;
     display: inline-block;
     padding: 10px 15px;
@@ -500,13 +500,13 @@
   }
   
   .login-boxx p:hover {
-    background: #e805ec;
+    background: #ff0895;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 1px #e805ec, 
-                0 0 5px #e805ec,
-                0 0 10px #e805ec,
-                0 0 20px #e805ec;
+    box-shadow: 0 0 1px #ff0895, 
+                0 0 5px #ff0895,
+                0 0 10px #ff0895,
+                0 0 20px #ff0895;
   }
   
   .login-boxx p span {
@@ -519,7 +519,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #e805ec);
+    background: linear-gradient(90deg, transparent, #ff0895);
     animation: btn-anim1 2s linear infinite;
   }
   
@@ -537,7 +537,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #e805ec);
+    background: linear-gradient(180deg, transparent, #ff0895);
     animation: btn-anim2 2s linear infinite;
     animation-delay: .5s
   }
@@ -556,7 +556,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #e805ec);
+    background: linear-gradient(270deg, transparent, #ff0895);
     animation: btn-anim3 2s linear infinite;
     animation-delay: 1s
   }
@@ -575,7 +575,7 @@
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #e805ec);
+    background: linear-gradient(360deg, transparent, #ff0895);
     animation: btn-anim4 2s linear infinite;
     animation-delay: 1.5s
   }
@@ -1820,7 +1820,7 @@
   .login-boxx p {
     font-family: 'Cairo', sans-serif;
     font-size: 25px;
-    color:#e805ec;
+    color:#ff0895;
     position: relative;
     display: inline-block;
     padding: 10px 15px;
@@ -1834,13 +1834,13 @@
   }
   
   .login-boxx p:hover {
-    background: #e805ec;
+    background: #ff0895;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 1px #e805ec, 
-                0 0 5px #e805ec,
-                0 0 10px #e805ec,
-                0 0 20px #e805ec;
+    box-shadow: 0 0 1px #ff0895, 
+                0 0 5px #ff0895,
+                0 0 10px #ff0895,
+                0 0 20px #ff0895;
   }
   
   .login-boxx p span {
@@ -1853,7 +1853,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #e805ec);
+    background: linear-gradient(90deg, transparent, #ff0895);
     animation: btn-anim1 2s linear infinite;
   }
   
@@ -1871,7 +1871,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #e805ec);
+    background: linear-gradient(180deg, transparent, #ff0895);
     animation: btn-anim2 2s linear infinite;
     animation-delay: .5s
   }
@@ -1890,7 +1890,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #e805ec);
+    background: linear-gradient(270deg, transparent, #ff0895);
     animation: btn-anim3 2s linear infinite;
     animation-delay: 1s
   }
@@ -1909,7 +1909,7 @@
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #e805ec);
+    background: linear-gradient(360deg, transparent, #ff0895);
     animation: btn-anim4 2s linear infinite;
     animation-delay: 1.5s
   }
@@ -2667,6 +2667,10 @@
       display: none!important;
     }
 
+    .showw {
+      display: block!important;
+    }
+
     *{
       margin:0;
       padding:0;
@@ -2787,67 +2791,73 @@
     }
    
     /*------------------------------------------MENU DROPDOWN-----------------------------------------*/
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: red;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .show {
-    display: block;
-  }
+    .navbar {
+      overflow: hidden;
+      background-color: #061b44;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #061b44;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      background-color: #061b44;
+    }
+    
+    .dropdown .dropbtn {
+      cursor: pointer;
+      font-size: 20px;  
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 20px;
+      background-color: inherit;
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+      opacity:70%;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      background-color: #030e3b;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      opacity:70px;
+    }
+    
+    .showw {
+      display: block;
+    }
     
     /*-----------------------------------------PARTEA CU TITLU----------------------------------------*/
     .show{
@@ -2895,7 +2905,7 @@
     .login-boxx p {
       font-family: 'Cairo', sans-serif;
       font-size: 15px;
-      color:#e805ec;
+      color:#ff0895;
       position: relative;
       display: inline-block;
       padding: 8px 10px;
@@ -2909,13 +2919,13 @@
     }
     
     .login-boxx p:hover {
-      background: #e805ec;
+      background: #ff0895;
       color: #fff;
       border-radius: 5px;
-      box-shadow: 0 0 1px #e805ec, 
-                  0 0 5px #e805ec,
-                  0 0 10px #e805ec,
-                  0 0 20px #e805ec;
+      box-shadow: 0 0 1px #ff0895, 
+                  0 0 5px #ff0895,
+                  0 0 10px #ff0895,
+                  0 0 20px #ff0895;
     }
     
     .login-boxx p span {
@@ -2928,7 +2938,7 @@
       left: -100%;
       width: 100%;
       height: 2px;
-      background: linear-gradient(90deg, transparent, #e805ec);
+      background: linear-gradient(90deg, transparent, #ff0895);
       animation: btn-anim1 2s linear infinite;
     }
     
@@ -2946,7 +2956,7 @@
       right: 0;
       width: 2px;
       height: 100%;
-      background: linear-gradient(180deg, transparent, #e805ec);
+      background: linear-gradient(180deg, transparent, #ff0895);
       animation: btn-anim2 2s linear infinite;
       animation-delay: .5s
     }
@@ -2965,7 +2975,7 @@
       right: -100%;
       width: 100%;
       height: 2px;
-      background: linear-gradient(270deg, transparent, #e805ec);
+      background: linear-gradient(270deg, transparent, #ff0895);
       animation: btn-anim3 2s linear infinite;
       animation-delay: 1s
     }
@@ -2984,7 +2994,7 @@
       left: 0;
       width: 2px;
       height: 100%;
-      background: linear-gradient(360deg, transparent, #e805ec);
+      background: linear-gradient(360deg, transparent, #ff0895);
       animation: btn-anim4 2s linear infinite;
       animation-delay: 1.5s
     }
@@ -3796,7 +3806,74 @@
       font-size: 15px;
       margin-left: 10px;
     }
-   
+   /*------------------------------------------MENU DROPDOWN-----------------------------------------*/
+  .navbar {
+    overflow: hidden;
+    background-color: #061b44;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #061b44;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    background-color: #061b44;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 15px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: inherit;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    opacity:70%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #030e3b;
+  }
+  
+  .dropdown-content a:hover {
+    opacity:70px;
+  }
+  
+  .showw {
+    display: block;
+  }
     
     /*-----------------------------------------PARTEA CU TITLU----------------------------------------*/
     .show{
@@ -3844,7 +3921,7 @@
     .login-boxx p {
       font-family: 'Cairo', sans-serif;
       font-size: 15px;
-      color:#e805ec;
+      color:#ff0895;
       position: relative;
       display: inline-block;
       padding: 8px 10px;
@@ -3858,13 +3935,13 @@
     }
     
     .login-boxx p:hover {
-      background: #e805ec;
+      background: #ff0895;
       color: #fff;
       border-radius: 5px;
-      box-shadow: 0 0 1px #e805ec, 
-                  0 0 5px #e805ec,
-                  0 0 10px #e805ec,
-                  0 0 20px #e805ec;
+      box-shadow: 0 0 1px #ff0895, 
+                  0 0 5px #ff0895,
+                  0 0 10px #ff0895,
+                  0 0 20px #ff0895;
     }
     
     .login-boxx p span {
@@ -3877,7 +3954,7 @@
       left: -100%;
       width: 100%;
       height: 2px;
-      background: linear-gradient(90deg, transparent, #e805ec);
+      background: linear-gradient(90deg, transparent, #ff0895);
       animation: btn-anim1 2s linear infinite;
     }
     
@@ -3895,7 +3972,7 @@
       right: 0;
       width: 2px;
       height: 100%;
-      background: linear-gradient(180deg, transparent, #e805ec);
+      background: linear-gradient(180deg, transparent, #ff0895);
       animation: btn-anim2 2s linear infinite;
       animation-delay: .5s
     }
@@ -3914,7 +3991,7 @@
       right: -100%;
       width: 100%;
       height: 2px;
-      background: linear-gradient(270deg, transparent, #e805ec);
+      background: linear-gradient(270deg, transparent, #ff0895);
       animation: btn-anim3 2s linear infinite;
       animation-delay: 1s
     }
@@ -3933,7 +4010,7 @@
       left: 0;
       width: 2px;
       height: 100%;
-      background: linear-gradient(360deg, transparent, #e805ec);
+      background: linear-gradient(360deg, transparent, #ff0895);
       animation: btn-anim4 2s linear infinite;
       animation-delay: 1.5s
     }
@@ -4033,7 +4110,7 @@
     .chenar p{
       text-align: center;
       padding: 5px 20px;
-      font-size: 15px;
+      font-size: 20px;
       line-height: 25px;
     }
     
