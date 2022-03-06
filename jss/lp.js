@@ -7,7 +7,7 @@ function vanish()
 document.addEventListener('DOMContentLoaded', vanish);
 
 
-/*(function () {
+(function () {
     const second = 1000,
           minute = second * 60,
           hour = minute * 60,
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', vanish);
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = "02/23/",
+        dayMonth = "03/21/",
         birthday = dayMonth + yyyy;
     
     today = mm + "/" + dd + "/" + yyyy;
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', vanish);
           }
           //seconds
         }, 0)
-    }());*/
+    }());
  
     $(document).ready(function(){
       $('.chenar').slick({
