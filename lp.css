@@ -741,6 +741,8 @@
     margin-bottom: 80px;;
   }
 
+
+
   .casuta{
     width: 300px;
     height: 350px;
@@ -1275,7 +1277,7 @@
   .container{
       text-align: center;
       font-family: 'Orbitron', sans-serif;
-      font-size: 40px;
+      font-size: 35px;
       margin-top: 20px;
       box-sizing: border-box;
       display: flex;
@@ -1292,7 +1294,7 @@
   
   #countdown li span {
     display: block;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   
   /*End of countdown*/
@@ -2062,6 +2064,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 60px;
+    width:90%;
   }
 
   .membri2{
@@ -2070,19 +2073,21 @@
     flex-direction: row;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 80px;;
+    margin-bottom: 80px;
+    width:68%;
   }
 
+  
   .casuta{
-    width: 300px;
-    height: 200px;
+    width: 360px;
+    height: 250px;
     background: transparent;
     border-radius: 20px;
     margin-top: 80px;
     position: relative;
-    line-height: ;
   }
 
+  
   .casuta:hover .fundal{
     transform: rotate(80deg);
     transition:0.8s;
@@ -2091,7 +2096,7 @@
   .casuta h3{
     text-align: center;
     font-family:'Cairo', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1em;
   }
 
@@ -2099,7 +2104,7 @@
     text-align: center;
     color:rgb(160, 156, 156);
     font-family:'Cairo', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1em;
   }
 
@@ -3653,7 +3658,34 @@
         transform: translate(85px, 0%);
       }
     }
+  
+
+  /*----------------------------------------------COUNTDOWN-----------------------------------------------*/
+  .container{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+  #countdown li{
+    display: inline-block;
+    font-size: 1.3em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
   }
+  
+  #countdown li span {
+    display: block;
+    font-size: 3rem;
+  }
+
+  /*End of countdown*/
+  
+}
 
   /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
   /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
