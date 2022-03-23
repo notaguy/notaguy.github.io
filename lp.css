@@ -107,13 +107,13 @@
   }
 
   .bg-modal form{
-    margin-top: 140px;
+    margin-top: 0;
     
   }
 
   .modal-content{
-    width: 700px;
-    height: 400px;
+    width: 900px;
+    height: 700px;
     background-image: url('poze/faque.webp');
     border-radius: 15px;
     text-align: center;
@@ -131,7 +131,7 @@
   .modal-content input{
     width: 50%;
     display:block;
-    margin: 15px auto;
+    margin: 25px auto;
     color:#143366;
   }
 
@@ -145,6 +145,7 @@
 
   .modal-content-back{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position:absolute;
@@ -214,7 +215,7 @@
   
   .login-box p {
     font-family: 'Cairo', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color:#e805ec;
     position: relative;
     display: inline-block;
@@ -466,9 +467,8 @@
   }
 
   .titlu h3{
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Cairo', sans-serif;
   }
 
   .login-boxx .user-box label {
@@ -1447,8 +1447,8 @@
   }
 
   .modal-content{
-    width: 700px;
-    height: 400px;
+    width: 900px;
+    height: 700px;
     background-image: url('poze/faque.webp');
     border-radius: 15px;
     text-align: center;
@@ -1480,10 +1480,9 @@
 
   .modal-content-back{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     position:absolute;
-    margin:0 auto;
     transform:rotateY(180deg);
   }
 
@@ -1802,9 +1801,8 @@
   }
 
   .titlu h3{
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Cairo', sans-serif;
   }
 
   .login-boxx .user-box label {
@@ -2819,6 +2817,8 @@
       float: left;
       overflow: hidden;
       background-color: #061b44;
+      display: flex;
+      justify-content: center;
     }
     
     .dropdown .dropbtn {
@@ -2885,14 +2885,14 @@
     }
   
     .titlu img{
-      width:80%!important;
+      width:70%!important;
       margin: 0 auto!important;
       
     }
 
     .titlu h3{
-      font-size: 25px;
-      margin-top: 20px;
+      font-size: 30px;
+      font-family: 'Cairo', sans-serif;
     }
 
     .login-boxx .user-box label {
@@ -3101,7 +3101,7 @@
       padding: 5px 10px;
       font-size: 15px;
       line-height: 25px;
-      margin: 0 10px;
+      margin: 0 15px;
     }
     
     .chenar h1,h2,p{
@@ -3665,7 +3665,7 @@
   .container{
     text-align: center;
     font-family: 'Orbitron', sans-serif;
-    font-size: 30px; 
+    font-size: 20px; 
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -3717,7 +3717,7 @@
   /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
   /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
   /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.9px) {
     .hide-on-mobile{
       display: none!important;
     }
@@ -3863,6 +3863,8 @@
     float: left;
     overflow: hidden;
     background-color: #061b44;
+    display: flex;
+    justify-content: center;
   }
   
   .dropdown .dropbtn {
@@ -3935,8 +3937,8 @@
     }
 
     .titlu h3{
-      font-size: 15px;
-      margin-top: 20px;
+      font-size: 20px;
+      font-family: 'Cairo', sans-serif;
     }
 
     .login-boxx .user-box label {

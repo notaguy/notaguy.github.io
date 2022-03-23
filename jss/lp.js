@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', vanish);
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = "03/21/",
+        dayMonth = "03/24/",
         birthday = dayMonth + yyyy;
     
     today = mm + "/" + dd + "/" + yyyy;
