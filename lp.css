@@ -659,7 +659,7 @@
 
   /*-----------------------------------SLIDER CU INFO---------------------------------------*/  
   .chenar{
-    margin: 60px auto;
+    margin: 0px auto;
     max-width: 1500px;
   }
   
@@ -709,9 +709,78 @@
     transform: translateY(-50%);
     z-index: 800;
   }
+
+  /*---------------------------------------Galerie---------------------------------------*/
   
+
+
+.containerx {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+ 
+}
+
+.heading {
+	font-family: 'Cairo', sans-serif;
+	line-height: 1.5;
+	text-align: center;
+	padding: 10px 0;
+  font-size: 55px;
+  color:white;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 20rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
   
- /*------------------------------------Echipa--------------------------------------------*/
+ /*----------------------------------------Echipa----------------------------------------*/
   .echipa h2{
     text-align: center;
     margin-top: 10px;
@@ -2044,6 +2113,77 @@
     z-index: 800;
   }
   
+  /*---------------------------------------Galerie---------------------------------------*/
+  
+
+
+
+.containerx {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+ 
+}
+
+.heading {
+	font-family: 'Cairo', sans-serif;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 10px 0;
+  font-size: 25px;
+  color:white;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
   
  /*------------------------------------Echipa--------------------------------------------*/
   .echipa h2{
@@ -3082,7 +3222,7 @@
   
     /*-----------------------------------SLIDER CU INFO---------------------------------------*/  
     .chenar{
-      margin: 15px auto;
+      margin: 0px auto;
       max-width: 1500px;
     }
     
@@ -3116,6 +3256,75 @@
       margin-top: 50px;
     }
     
+  /*---------------------------------------Galerie---------------------------------------*/
+  
+
+.containerx {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+ 
+}
+
+.heading {
+	font-family: 'Cairo', sans-serif;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 10px 0;
+  font-size: 25px;
+  color:white;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
     
    /*------------------------------------Echipa--------------------------------------------*/
 
@@ -4128,7 +4337,7 @@
   
     /*-----------------------------------SLIDER CU INFO---------------------------------------*/  
     .chenar{
-      margin: 15px auto;
+      margin: 0px auto;
       max-width: 1500px;
     }
     
@@ -4161,6 +4370,75 @@
       margin-top: 50px;
     }
     
+    
+  /*---------------------------------------Galerie---------------------------------------*/
+
+.containerx {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+ 
+}
+
+.heading {
+	font-family: 'Cairo', sans-serif;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 10px 0;
+  font-size: 25px;
+  color:white;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
     
    /*------------------------------------Echipa--------------------------------------------*/
 
